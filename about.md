@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I love automation, I have a few home automation projects to date and I have ambitions for several more.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I currently work for an IT Software and Solutions company owned by a Fortune 100 multinational insurer.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[ctolan(at)gmail.com](mailto:ctolan(at)gmail.com)
