@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I Bought My Domain Name."
-date:   2018-09-09 14:56:31 +0100
+date:   2018-09-10 14:56:31 +0100
 ---
 
 Today I took the advice of Gary Vaynerchuk and bought my domain name. This is a quick write up on how it went applying it to my GitHub Pages blog. I started out on GoDaddy and bought the domain name via PayPal. The two year order seemed reasonably priced at about $10 a year (side note why does conordean.com cost $899 because he’s an irish rugby player), with the domain mine first thing I did was setup forwarding to try it out. 
