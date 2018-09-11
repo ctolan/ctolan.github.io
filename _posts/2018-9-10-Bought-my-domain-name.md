@@ -11,15 +11,18 @@ This worked but the domain of the site does not change from ctolan.github.io, as
 
 ![GoDayy A Records image]({{ site.url }}/images/GoDaddyARecords.PNG)
 
-<a href="https://help.github.com/articles/setting-up-an-apex-domain/"> 
+<a href="https://help.github.com/articles/setting-up-an-apex-domain/">"https://help.github.com/articles/setting-up-an-apex-domain"</a> 
 
 Next I added the custom domain on GitHub by going to the settings and saved my domain.
 I cancelled the forwarding too by the way, but not before experiencing the never ending loop of conortolan.com forwarding to ctolan.github.io which tried to resolve conortolan.com as the site name.
-https://help.github.com/articles/adding-or-removing-a-custom-domain-for-your-github-pages-site/
+
+<a href="https://help.github.com/articles/adding-or-removing-a-custom-domain-for-your-github-pages-site/">"https://help.github.com/articles/adding-or-removing-a-custom-domain-for-your-github-pages-site/"</a> 
+
 Now my site is up and running at conortolan.com as you can see, but I’ve not yet got the HTTPS working. There is a note that it can take 24 hours, so hopefully that’s all it is.
 
-![GoDayy A Records image]({{ site.url }}/images/GitHubHTTPS.PNG)
+![GitHub HTTPS image]({{ site.url }}/images/GitHubHTTPS.PNG)
 
 Other links I looked at while setting this up.
-https://help.github.com/articles/quick-start-setting-up-a-custom-domain/
-https://blog.github.com/2018-05-01-github-pages-custom-domains-https/
+
+<a href="https://help.github.com/articles/quick-start-setting-up-a-custom-domain/">"https://help.github.com/articles/quick-start-setting-up-a-custom-domain/"</a>
+<a href="https://blog.github.com/2018-05-01-github-pages-custom-domains-https/">"https://blog.github.com/2018-05-01-github-pages-custom-domains-https/"</a>
