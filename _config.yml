@@ -84,4 +84,5 @@ exclude:
   - README.md
   - CNAME
 
-remote_theme: mmistakes/hpstr-jekyll-theme
+remote_theme: mmistakes / skinny-bones-jekyll
+
