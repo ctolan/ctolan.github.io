@@ -4,7 +4,7 @@ title:  "Trying to use My Domain Name."
 date:   2018-09-11 14:56:31 +0100
 ---
 
-Yesterday I bought my domain name conortolan.com and I played around with domain forwarding quite successfully. Sadly I have not been so successful with using setting the domain as my custom domain on GitHub. While I’ve gotten the basics working I am struggling a bit with HTTPS and mixed content. I am hoping that I just need to be patient and let the process happen with GitHub and LetsEncrpyt sorting it all out in the background as per the message below.
+Yesterday I bought my domain name conortolan.com and I played around with domain forwarding quite successfully. Sadly, I have not been so successful with using setting the domain as my custom domain on GitHub. While I’ve gotten the basics working I am struggling a bit with HTTPS and mixed content. I am hoping that I just need to be patient and let the process happen with GitHub and LetsEncrpyt sorting it all out in the background as per the message below.
 ![GitHub HTTPS image]({{ site.url }}/images/GitHubHTTPS.PNG)
 
 My prodding and poking has come to nothing but I also haven’t waited a full 24 hours without poking and prodding it.
