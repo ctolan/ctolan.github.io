@@ -85,7 +85,7 @@ exclude:
   - README.md
   - CNAME
 
-remote_theme: mmistakes / skinny-bones-jekyll
+remote_theme: Phlow/feeling-responsive
 
 
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
