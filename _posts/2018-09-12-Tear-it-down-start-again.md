@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tear it down and start again"
-date:   2018-09-11 14:56:31 +0100
+date:   2018-09-12 09:56:31 +0100
 ---
 
 The HTTPS and DNS forwarding is now working yet so I'm going to do what we always do in siturations like this. Tear it all down, go back to the start and do it again, but with the knowledge of what didn't work last time.
