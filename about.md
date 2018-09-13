@@ -22,7 +22,7 @@ I currently work for an IT Software and Solutions company owned by a Fortune 100
       o.parentNode.insertBefore(s, o);
       })();
   </script>
-    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="285b64fe-f3e5-4777-97b8-c49b5053fe7a"></div>
+  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="285b64fe-f3e5-4777-97b8-c49b5053fe7a"></div>
   <script type="text/javascript">
     (function() {
       var s = document.createElement('script');
