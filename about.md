@@ -11,7 +11,17 @@ I love automation, I have a few home automation projects to date and I have ambi
 I currently work for an IT Software and Solutions company owned by a Fortune 100 multinational insurer.
 
 ### Earned Certification Badges
-https://www.youracclaim.com/badges/65eb75ed-277f-46b9-8720-15497a17e948/public_url
+  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a5608d0f-072d-46b3-9393-7c52a73547c2"></div>
+  <script type="text/javascript">
+    (function() {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = '//cdn.youracclaim.com/assets/utilities/embed.js';
+      var o = document.getElementsByTagName('script')[0];
+      o.parentNode.insertBefore(s, o);
+      })();
+  </script>
 
 ### Contact me
 
