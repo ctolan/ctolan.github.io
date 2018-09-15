@@ -11,4 +11,4 @@ Ok lets get down to some automation content. Over however many posts it takes I 
 
 I consider my setup DIY, the bits and pieces I've hobbled together are not kits. The central platform that really brings it all together is an opensource project called <a href="https://www.home-assistant.io">Home Assistant</a>, a friend of mine <a href="https://github.com/ryanm101">Ryan</a> introduced me to it. It runs on a RaspberryPi and they've created a custom image that I flashed onto an SD card.
 
-![Raspberry Pi SD image]({{ site.url }}/images/MyRaspberryPi-SDcard.png)
+![Raspberry Pi SD image]({{ site.url }}/images/MyRaspberryPi-SDcard.PNG)
