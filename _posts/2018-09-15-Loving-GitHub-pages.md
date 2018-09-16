@@ -21,7 +21,7 @@ I have the following add-ons:
 - <a href="https://www.home-assistant.io/addons/samba/">Samba</a>
 - <a href="https://www.home-assistant.io/addons/lets_encrypt/">Let's Encrypt</a>
 
-Ok so why, DuckDNS gives a free DNS name for my changing Public IP address. This DNS supports HTTPS via Let's Encrypt and can then be pointed to for Google Assistant to pair with my Google Home device in my house. I was about to preview a long in depth post for how I connected my Google Home but looking at the current help pages it seems Home Assistant has made it even easier for everyone to <a href="https://www.home-assistant.io/components/google_assistant/">>connect your home assistants using Home Assistant Cloud</a>. I'll have to try this out and report back.
+Ok so why, DuckDNS gives a free DNS name for my changing Public IP address. This DNS supports HTTPS via Let's Encrypt and can then be pointed to for Google Assistant to pair with my Google Home device in my house. I was about to preview a long in depth post for how I connected my Google Home but looking at the current help pages it seems Home Assistant has made it even easier for everyone to <a href="https://www.home-assistant.io/components/google_assistant/">connect your home assistants using Home Assistant Cloud</a>. I'll have to try this out and report back.
 
 Google Assistant component is the way that you let Google Assistant (the thing parsing your voice) about things in your Home Assistant setup. It is how it knows whose kitchen light you want to turn on etc.
 
