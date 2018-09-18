@@ -1,6 +1,19 @@
 ---
-layout: post
+layout: page
+subheadline:  "Headers With Style"
 title:  "Updated Hassio via API"
+teaser: "Feeling Responsive enables you to get the attention of visitors. If you don't want to use a big header, use an image for the article instead."
+categories:
+    - design
+tags:
+    - design
+    - background color
+    - header
+header: no
+image:
+    title: unsplash_eagle.jpg
+    caption: This is a caption for the header image with link
+    caption_url: https://unsplash.com/
 date:   2018-09-16 09:56:31 +0100
 ---
 
