@@ -4,7 +4,7 @@ title:  "Tear it down and start again"
 date:   2018-09-12 09:56:31 +0100
 ---
 
-# Not yet working
+# Not yet working - Updated
 The HTTPS and DNS forwarding are not working yet, so I'm going to do what we always do in situations like this tear it all down, go back and do it again. This time with knowledge I didn't have the first time.
 
 First I deleted the 4 A records in GoDaddy.com, I’m giving them 30min to clear as that was the TTL (time-to-live).
@@ -18,3 +18,4 @@ I completed the steps out of order by creating the A records before setting the 
 
 # And of course that worked!
 So within less than an hour of actually re-doing it the Quick Start way it is working. One slight difference in the GoDaddy config is that I removed the "Parked" A record that may or may not have been problematic. It did show up when I ran dig against my domain.
+![HTTPS Secure image]({{ site.url }}/images/SecureHTTPS.PNG)
