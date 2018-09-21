@@ -12,7 +12,7 @@ I currently work for an IT Software and Solutions company owned by a Fortune 100
 
 ### Earned Certification Badges
 
-  <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-08-28&ci=AWS00604072" rel="Validate">![Badge]({{ site.url }}/images/AWS-Certified-Solutions-Architect.png)]</a>
+  <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-08-28&ci=AWS00604072" rel="Validate">![Badge]({{ site.url }}/images/AWS-Certified-Solutions-Architect.png)</a>
 
   <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a5608d0f-072d-46b3-9393-7c52a73547c2"></div>
   <script type="text/javascript">
