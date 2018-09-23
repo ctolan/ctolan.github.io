@@ -44,6 +44,11 @@ This is awesome, that’s my test passing – tick.
 
 Next up documentation, do I need to write documentation? I guess I do, and there is __Docs__ folder and there is already a __New-JiraIssue.md__ helpfile, this is actually easier than I expected – the benefit of contributing to an existing project is that a lot of the work has already been done or there would be nothing to contribute to. I found the bit in the help file with the examples and copy paste changed to cover the new use case, my new functionality that I added to this project #satifaction. Documentation – tick.
 
-Right it is getting late now and the end is in sight, I create the PR, [this PR]( https://github.com/AtlassianPS/JiraPS/pull/312). That’s me done, I leave it to the JiraPS team to review and I’ll see what happens. I get an email a couple of hours later suggesting a couple of minor changes which I put through and my fix was merged into the Development branch. 
+Right it is getting late now and the end is in sight, I create the PR, [this PR]( https://github.com/AtlassianPS/JiraPS/pull/312). That’s me done, I leave it to the JiraPS team to review and I’ll see what happens. I get an email a couple of hours later suggesting a couple of minor changes which I put through and my fix was merged into the Development branch.
 
 ![Merged! image]({{ site.url }}/images/Issue229-merged.PNG)
+
+I’ll definitely continue to contribute to opensource projects, I’ve been bitten by the bug. The JiraPS project will be a good place to start – I’ve already learned a bit from looking at the well written code of the module. It validated the approach we’ve taken in work on our own module, the pester-tests, the documentation, heck even the naming conventions.
+
+Thanks for reading.
+Conor
