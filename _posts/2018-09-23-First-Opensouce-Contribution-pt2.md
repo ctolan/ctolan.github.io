@@ -4,7 +4,7 @@ title:  "My First Open Source Contribution - Part 2"
 date:   2018-09-23 09:56:31 +0100
 ---
 
-Picking up right where I left off yesterday **Crap again I’ve not do any testing**, I have come too far now not to keep going. I took a look at their [guide for writing tests](https://atlassianps.org/docs/Contributing/writing-tests.html). Come on seriously?
+Picking up right where I left off yesterday **Crap again I’ve not done any testing**, I have come too far now not to keep going. I took a look at their [guide for writing tests](https://atlassianps.org/docs/Contributing/writing-tests.html). Come on seriously?
 
 Ok well I will just have to figure it out, ah of course there is a Tests folder, and it contains New-JiraIssue.tests.ps1 and it is Pester, of course it is! Sweet I can do this.
 
