@@ -12,7 +12,7 @@ Ok, well I will just have to figure it out, ah of course there is a __Tests__ fo
 
 The test looks well written, clear mocking of all the external function calls, phew that could have stopped me in my tracks because I really haven’t looked at the code in this function. I have only been working with the parameters so far. I see there is one behaviour test written already, so I’ll probably start here.
 
-```powershell
+```posh
         Context "Behavior testing" {
             It "Creates an issue in JIRA" {
                 { New-JiraIssue @newParams } | Should Not Throw
