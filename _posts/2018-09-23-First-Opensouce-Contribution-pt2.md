@@ -12,16 +12,16 @@ Ok, well I will just have to figure it out, ah of course there is a __Tests__ fo
 
 The test looks well written, clear mocking of all the external function calls, phew that could have stopped me in my tracks because I really haven’t looked at the code in this function. I have only been working with the parameters so far. I see there is one behaviour test written already, so I’ll probably start here.
 
-```posh
-        Context "Behavior testing" {
-            It "Creates an issue in JIRA" {
-                { New-JiraIssue @newParams } | Should Not Throw
-                # The String in the ParameterFilter is made from the keywords
-                # we should expect to see in the JSON that should be sent,
-                # including the summary provided in the test call above.
-                Assert-MockCalled -CommandName Invoke-JiraMethod -ModuleName JiraPS -Times 1 -Scope It -ParameterFilter { $Method -eq 'Post' -and $URI -like "$jiraServer/rest/api/*/issue" }
-            }
-        }
+```powershell
+Context "Behavior testing" {
+It "Creates an issue in JIRA" {
+{ New-JiraIssue @newParams } | Should Not Throw
+# The String in the ParameterFilter is made from the keywords
+# we should expect to see in the JSON that should be sent,
+# including the summary provided in the test call above.
+Assert-MockCalled -CommandName Invoke-JiraMethod -ModuleName JiraPS -Times 1 -Scope It -ParameterFilter { $Method -eq 'Post' -and $URI -like "$jiraServer/rest/api/*/issue" }
+}
+}
 ```
 
 Above is the test for how the function currently works and what I’ve changed adds a new way to feed the function from the pipeline. I wrote the following test reusing the already working code for mocking and the parameters etc.
