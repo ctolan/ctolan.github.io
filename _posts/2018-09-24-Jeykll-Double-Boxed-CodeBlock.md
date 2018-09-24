@@ -39,7 +39,7 @@ kramdown:
     css_class: 'highlight'
 ```
 
-
+Now this might seem trivial but it get complicated when you are using local Jeykll development tools and everything looks fine, then you push to GitHub and it looks screwed. Either way, a little digging on the internet and you'll find your answers. I hope this posts properly. To see, you just need to check the number of commits it took me to get [this page](https://github.com/ctolan/ctolan.github.io/blob/master/_posts/2018-09-24-Jeykll-Double-Boxed-CodeBlock.md) committed.
 
 Thanks for reading.
 Conor
