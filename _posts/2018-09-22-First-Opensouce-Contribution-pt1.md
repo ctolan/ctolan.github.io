@@ -20,19 +20,19 @@ Supply values for the following parameters:
 Ok so it's clear from this test that the function isn't expecting to take the parameters from the pipeline, but that can be fixed with the addition of the parameter attribute.
 
 ```powershell
-    Param (
-        [parameter(ValueFromPipeline=$True)]
-        [string[]]$Project
-    )
+Param (
+    [parameter(ValueFromPipeline=$True)]
+    [string[]]$Project
+)
 ```
 
 or actually: 
 
 ```powershell
-    Param (
-        [parameter(ValueFromPipelineByPropertyName=$True)]
-        [string[]]$Project
-    )
+Param (
+    [parameter(ValueFromPipelineByPropertyName=$True)]
+    [string[]]$Project
+)
 ```
 
 So lets add that and see what I get.
@@ -138,15 +138,15 @@ With the problem figured out I wondered what to do about it, do I just tell the 
 I wondered could it be this is easy, the problem is the begin block, why not move the code out of the begin block = done. Thinking back to the numbers example above, If I need to do whatever is in the begin block that references an input variable, then I’ll need to do it for each object piped into the function. The aim here is to be able to generate an input object of one or many new issues and then pipe them into the function for processing.
 
 ```powershell
-    begin {
-        Write-Verbose "[$($MyInvocation.MyCommand.Name)] Function started"
+begin {
+    Write-Verbose "[$($MyInvocation.MyCommand.Name)] Function started"
 
-        $server = Get-JiraConfigServer -ErrorAction Stop -Debug:$false
+    $server = Get-JiraConfigServer -ErrorAction Stop -Debug:$false
 
-        $createmeta = Get-JiraIssueCreateMetadata -Project $Project -IssueType $IssueType -Credential $Credential -ErrorAction Stop -Debug:$false
+    $createmeta = Get-JiraIssueCreateMetadata -Project $Project -IssueType $IssueType -Credential $Credential -ErrorAction Stop -Debug:$false
 
-        $resourceURi = "$server/rest/api/latest/issue"
-    }
+    $resourceURi = "$server/rest/api/latest/issue"
+}
 ```
 
 You can see where this is going without knowing much about the rest of the project, if you need createmeta once you need it everytime. I made the change saved the code, next I need a Pull Request. Read how to [submit a PR](https://atlassianps.org/docs/Contributing/submitting-a-pr.html).
