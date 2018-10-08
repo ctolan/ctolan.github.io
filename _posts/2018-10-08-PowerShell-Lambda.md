@@ -36,3 +36,27 @@ Next up is setting Visual Studio Code to use PWSH in the terminal, I followed th
 ![PWSH VSCode Installed Image]({{ site.url }}/images/PWSH-VSCode-1.PNG)
 
 Click the + if you do not see it the first time after a restart. I needed to acknowledge a security prompt the first time.
+
+Ok let us get to the code
+
+```powershell
+PS C:\websites\ctolan.github.io> New-AWSPowerShellLambda -ScriptName LambdaHello -Template Basic
+WARNING: This script requires the AWSPowerShell.NetCore module which is not installed locally.
+WARNING: To use the AWS CmdLets execute "Install-Module AWSPowerShell.NetCore" and then update the #Requires statement to the version installed. If you are not going to use the AWS CmdLets then remove the #Requires statement from the script.
+Created new AWS Lambda PowerShell script LambdaHello.ps1 from template Basic at C:\websites\ctolan.github.io\LambdaHello
+
+PS C:\websites\ctolan.github.io> Install-Module AWSPowerShell.NetCore
+
+Untrusted repository
+You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the
+Set-PSRepository cmdlet. Are you sure you want to install the modules from 'PSGallery'?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): A
+PS C:\websites\ctolan.github.io>
+```
+
+Now it turns out I also need to install the AWS module in the new PowerShell Core setup. I used "-AllowClobber" because i did already have these cmdlets installed.
+
+```powershell
+Install-Module -Name AWSPowerShell -AllowClobber
+```
+
