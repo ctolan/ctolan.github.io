@@ -59,8 +59,8 @@ CALLSTACK:
 Command                     Arguments
 -------                     ---------
 _deployProject
-Publish-AWSPowerShellLambda {{Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-we...
-<ScriptBlock>               {{=$null}, {=$null}, {=$null}, {=$null}}
+Publish-AWSPowerShellLambda \{{Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-we...
+<ScriptBlock>               \{{=$null}, {=$null}, {=$null}, {=$null}}
 At C:\Program Files\PowerShell\Modules\AWSLambdaPSCore\1.1.0.0\Private\_DeploymentFunctions.ps1:194 char:13
 +             throw $msg
 +             ~~~~~~~~~~
