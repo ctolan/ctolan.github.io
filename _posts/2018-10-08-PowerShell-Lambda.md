@@ -39,6 +39,7 @@ Click the + if you do not see it the first time after a restart. I needed to ack
 
 Ok let us get to the code
 
+{% raw %}
 ```powershell
 PS > New-AWSPowerShellLambda -ScriptName LambdaHello -Template Basic
 WARNING: This script requires the AWSPowerShell.NetCore module which is not installed locally.
@@ -74,7 +75,7 @@ _deployProject
 Publish-AWSPowerShellLambda /{{Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-we...
 <ScriptBlock>               /{{=$null}, {=$null}, {=$null}, {=$null}}
 ```
-
+{% endraw %}
 I thought ok maybe I dont have everything that they assumed I would have, I should install the AWS PowerShell module and try to connect with those functions to check if it is me, the lambda functions of what.
 
 ```powershell
