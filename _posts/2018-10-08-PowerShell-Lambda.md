@@ -11,13 +11,13 @@ First things first, I’ll want to setup Visual Studio Code for PowerShell Core 
 ![PWSH AWS Lambda Module Install Image]({{ site.url }}/images/PWSH-AWS-Lambda-1.PNG)
 
 ```powershell
-PS C:\Program Files\PowerShell\6> Install-Module -Name AWSLambdaPSCore
+PS > Install-Module -Name AWSLambdaPSCore
 Untrusted repository
 You are installing the modules from an untrusted repository. If you trust this repository, change its
 InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from
 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): A
-PS C:\Program Files\PowerShell\6> get-command –module AWSLambdaPSCore
+PS > get-command –module AWSLambdaPSCore
 
 CommandType     Name                                               Version    Source
 -----------     ----                                               -------    ------
@@ -40,23 +40,89 @@ Click the + if you do not see it the first time after a restart. I needed to ack
 Ok let us get to the code
 
 ```powershell
-PS C:\websites\ctolan.github.io> New-AWSPowerShellLambda -ScriptName LambdaHello -Template Basic
+PS > New-AWSPowerShellLambda -ScriptName LambdaHello -Template Basic
 WARNING: This script requires the AWSPowerShell.NetCore module which is not installed locally.
 WARNING: To use the AWS CmdLets execute "Install-Module AWSPowerShell.NetCore" and then update the #Requires statement to the version installed. If you are not going to use the AWS CmdLets then remove the #Requires statement from the script.
-Created new AWS Lambda PowerShell script LambdaHello.ps1 from template Basic at C:\websites\ctolan.github.io\LambdaHello
+Created new AWS Lambda PowerShell script LambdaHello.ps1 from template Basic at C:\LambdaHello
 
-PS C:\websites\ctolan.github.io> Install-Module AWSPowerShell.NetCore
+PS > Install-Module AWSPowerShell.NetCore
 
 Untrusted repository
 You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the
 Set-PSRepository cmdlet. Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): A
-PS C:\websites\ctolan.github.io>
+PS >
+PS >Publish-AWSPowerShellLambda -ScriptPath .\LambdaHello.ps1 -Name  HelloWorld -Region eu-west-1
+Error retrieving configuration for function HelloWorld: The security token included in the request is invalid.
+Error publishing PowerShell Lambda Function: -1
+CALLSTACK:
+Command                     Arguments
+-------                     ---------
+_deployProject
+Publish-AWSPowerShellLambda {{Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-we...
+<ScriptBlock>               {{=$null}, {=$null}, {=$null}, {=$null}}
+At C:\Program Files\PowerShell\Modules\AWSLambdaPSCore\1.1.0.0\Private\_DeploymentFunctions.ps1:194 char:13
++             throw $msg
++             ~~~~~~~~~~
++ CategoryInfo          : OperationStopped: (Error publishin...
+:String) [], RuntimeException
++ FullyQualifiedErrorId : Error publishing PowerShell Lambda Function: -1
+CALLSTACK:
+Command                     Arguments
+-------                     ---------
+_deployProject
+Publish-AWSPowerShellLambda {{Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-we...
+<ScriptBlock>               {{=$null}, {=$null}, {=$null}, {=$null}}
 ```
 
-Now it turns out I also need to install the AWS module in the new PowerShell Core setup. I used "-AllowClobber" because i did already have these cmdlets installed.
+I thought ok maybe I dont have everything that they assumed I would have, I should install the AWS PowerShell module and try to connect with those functions to check if it is me, the lambda functions of what.
 
 ```powershell
 Install-Module -Name AWSPowerShell -AllowClobber
 ```
 
+I used "-AllowClobber" because some of the cmdlets existed and it is a force install switch.
+
+I must have all the necessary modules installed now
+
+- PowerShell Core 6
+- AWS PowerShell Lambda Module
+- AWS PowerShell Module
+- AWS PowerShell NetCore
+
+*Error!* --> Google
+The first thing I tried was setting Environment variables for AWS Access Key and AWS Secret Key, but this didn't work. It did set me on the right path checking the AWS PowerShell credentials connectivity, I looked [here](https://aws.amazon.com/blogs/developer/handling-credentials-with-aws-tools-for-windows-powershell/) for how to set/create a new AWS Credential.
+
+```powershell
+PS C:> Set-AWSCredentials -AccessKey 123MYACCESSKEY -SecretKey 456SECRETKEY -StoreAs myAWScreds
+```
+
+I was able to list all AMI's on eu-west-1 after created a new AWS credenital, but still not able publish my Lambda.
+
+I gave up for the night and came back starting with again with Google, I 
+[found the answer](https://stackoverflow.com/questions/43195587/aws-powershell-use-stsrole-the-security-token-included-in-the-request-is-inval). When I fetched the credentials in my session there were two:
+
+```powershell
+PS > Get-AWSCredentials -ListStoredCredentials
+WARNING: The ListProfile switch is deprecated and will be removed from a future release.  Please use ListProfileDetail instead.
+myAWScreds
+default
+
+PS > Remove-AWSCredentialProfile default
+
+PS > Publish-AWSPowerShellLambda -ScriptPath .\LambdaHello.ps1 -Name  HelloWorld -Region eu-west-1
+```
+
+Once I removed the default credential leaving only the one i created with the correct Key and secret it worked!
+
+![PWSH Lambda Published Image]({{ site.url }}/images/PWSH-VSCode-3.PNG)
+
+So now what? Back to the [AWS documentation](https://aws.amazon.com/blogs/developer/announcing-lambda-support-for-powershell-core/). I logged into the AWS console again and there is my function.
+
+![AWS Lambda Published Image]({{ site.url }}/PowerShell-Lambda-AWS-1.PNG)
+
+Looking around I spotted the Test button, so I created an emppty test.
+![AWS PowerSHell Lambda Works Image]({{ site.url }}/PowerShell-Lambda-AWS-test.PNG)
+
+I executed the function from the main page once created and it works!
+![AWS PowerSHell Lambda Works Image]({{ site.url }}/PowerShell-Lambda-AWS-Works.PNG)
