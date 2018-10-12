@@ -2,6 +2,8 @@
 layout: post
 title:  "PowerShell AWS Lambdas"
 date:   2018-10-08 09:56:31 +0100
+author:
+  twitter: ConorT
 ---
 
 A month ago now [AWS announced Lambda support for PowerShell Core](https://aws.amazon.com/blogs/developer/announcing-lambda-support-for-powershell-core/), this is awesome and something I am certainly going to learn to use. PowerShell is my go to language in work but when I move to web platforms PowerShell seems so far away. Hopefully these Lambda’s will be able to bridge writing in my native tongue while away from home.
