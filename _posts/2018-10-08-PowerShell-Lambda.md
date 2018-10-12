@@ -37,7 +37,7 @@ Next up is setting Visual Studio Code to use PWSH in the terminal, I followed th
 
 Click the + if you do not see it the first time after a restart. I needed to acknowledge a security prompt the first time.
 
-Ok let us get to the code
+Ok let us get to the code:
 
 {% raw %}
 ```powershell
@@ -85,7 +85,9 @@ Publish-AWSPowerShellLambda {{Region=eu-west-1$null}, {Region=eu-west-1$null}, {
 ```
 {% endraw %}
 
-I thought ok maybe I don't have everything that they assumed I would have, I should re-install the AWS PowerShell module and try to connect with those cmdlets to check if it is me or the new stuff.
+*Errors* Quick get back to Google.
+
+I thought ok maybe I don't have everything necessary installed, I re-installed the AWS PowerShell module and would try to connect with those cmdlets to check if it is me or the new stuff.
 
 ```powershell
 Install-Module -Name AWSPowerShell -AllowClobber
@@ -93,24 +95,25 @@ Install-Module -Name AWSPowerShell -AllowClobber
 
 I used "-AllowClobber" because some of the cmdlets existed and it is a force install switch.
 
-I must have all the necessary modules installed now
+So by now i think i must all the necessary modules installed.
 
 - PowerShell Core 6
 - AWS PowerShell Lambda Module
 - AWS PowerShell Module
 - AWS PowerShell NetCore
 
-*Error!* --> Google
-The first thing I tried was setting Environment variables for AWS Access Key and AWS Secret Key, but this didn't work. It did set me on the right path checking the AWS PowerShell credentials connectivity, I looked [here](https://aws.amazon.com/blogs/developer/handling-credentials-with-aws-tools-for-windows-powershell/) for how to set/create a new AWS Credential.
+Yet i still could not publish sucessfully.
+
+I tried setting Environment variables for my AWS Access Key and AWS Secret Key, but this didn't work. It did set me on the right path checking the AWS PowerShell credentials connectivity, I looked [here](https://aws.amazon.com/blogs/developer/handling-credentials-with-aws-tools-for-windows-powershell/) for how to set/create a new AWS Credential via PowerShell.
 
 ```powershell
 PS C:> Set-AWSCredentials -AccessKey 123MYACCESSKEY -SecretKey 456SECRETKEY -StoreAs myAWScreds
 ```
 
-I was able to list all AMI's on eu-west-1 after created a new AWS credential, but still not able publish my Lambda.
+I was now able to list all AMI's on eu-west-1, but still not able publish my Lambda!
 
 I gave up for the night and came back starting with again with Google, I 
-[found the answer](https://stackoverflow.com/questions/43195587/aws-powershell-use-stsrole-the-security-token-included-in-the-request-is-inval). When I fetched the credentials in my session there were two:
+[found the answer](https://stackoverflow.com/questions/43195587/aws-powershell-use-stsrole-the-security-token-included-in-the-request-is-inval). When I listed the credentials in my session there were two.
 
 ```powershell
 PS > Get-AWSCredentials -ListStoredCredentials
@@ -123,7 +126,7 @@ PS > Remove-AWSCredentialProfile default
 PS > Publish-AWSPowerShellLambda -ScriptPath .\LambdaHello.ps1 -Name  HelloWorld -Region eu-west-1
 ```
 
-Once I removed the default credential leaving only the one I created with the correct Key and secret it worked!
+I removed the _default_ credential leaving only the one I created with the correct Key and secret it worked!
 
 ![PWSH Lambda Published Image]({{ site.url }}/images/PWSH-VSCode-3.PNG)
 
