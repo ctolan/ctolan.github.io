@@ -76,7 +76,7 @@ Publish-AWSPowerShellLambda /{{Region=eu-west-1$null}, {Region=eu-west-1$null}, 
 <ScriptBlock>               /{{=$null}, {=$null}, {=$null}, {=$null}}
 ```
 {% endraw %}
-I thought ok maybe I dont have everything that they assumed I would have, I should install the AWS PowerShell module and try to connect with those functions to check if it is me, the lambda functions of what.
+I thought ok maybe I don't have everything that they assumed I would have, I should install the AWS PowerShell module and try to connect with those functions to check if it is me, the lambda functions of what.
 
 ```powershell
 Install-Module -Name AWSPowerShell -AllowClobber
@@ -98,7 +98,7 @@ The first thing I tried was setting Environment variables for AWS Access Key and
 PS C:> Set-AWSCredentials -AccessKey 123MYACCESSKEY -SecretKey 456SECRETKEY -StoreAs myAWScreds
 ```
 
-I was able to list all AMI's on eu-west-1 after created a new AWS credenital, but still not able publish my Lambda.
+I was able to list all AMI's on eu-west-1 after created a new AWS credential, but still not able publish my Lambda.
 
 I gave up for the night and came back starting with again with Google, I 
 [found the answer](https://stackoverflow.com/questions/43195587/aws-powershell-use-stsrole-the-security-token-included-in-the-request-is-inval). When I fetched the credentials in my session there were two:
@@ -120,10 +120,10 @@ Once I removed the default credential leaving only the one i created with the co
 
 So now what? Back to the [AWS documentation](https://aws.amazon.com/blogs/developer/announcing-lambda-support-for-powershell-core/). I logged into the AWS console again and there is my function.
 
-![AWS Lambda Published Image]({{ site.url }}/PowerShell-Lambda-AWS-1.PNG)
+![AWS Lambda Published Image]({{ site.url }}/images/PowerShell-Lambda-AWS-1.PNG)
 
-Looking around I spotted the Test button, so I created an emppty test.
-![AWS PowerSHell Lambda Works Image]({{ site.url }}/PowerShell-Lambda-AWS-test.PNG)
+Looking around I spotted the Test button, so I created an empty test.
+![AWS PowerSHell Lambda Works Image]({{ site.url }}/images/PowerShell-Lambda-AWS-test.PNG)
 
 I executed the function from the main page once created and it works!
-![AWS PowerSHell Lambda Works Image]({{ site.url }}/PowerShell-Lambda-AWS-Works.PNG)
+![AWS PowerSHell Lambda Works Image]({{ site.url }}/images/PowerShell-Lambda-AWS-Works.PNG)
