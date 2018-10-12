@@ -45,14 +45,22 @@ PS > New-AWSPowerShellLambda -ScriptName LambdaHello -Template Basic
 WARNING: This script requires the AWSPowerShell.NetCore module which is not installed locally.
 WARNING: To use the AWS CmdLets execute "Install-Module AWSPowerShell.NetCore" and then update the #Requires statement to the version installed. If you are not going to use the AWS CmdLets then remove the #Requires statement from the script.
 Created new AWS Lambda PowerShell script LambdaHello.ps1 from template Basic at C:\LambdaHello
+```
 
+The basic template script is pretty empty, I set it to write-host "Hello World!" I did as instructed and installed AWSPowerShell.NetCore (but having completed this and looking back I know that for my basic HelloWorld I do not need this.)
+
+```powershell
 PS > Install-Module AWSPowerShell.NetCore
 
 Untrusted repository
 You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the
 Set-PSRepository cmdlet. Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): A
-PS >
+```
+
+Now to try publish my HelloWorld Lambda with Publish-AWSPowerShellLambda cmdlet.
+
+```powershell
 PS >Publish-AWSPowerShellLambda -ScriptPath .\LambdaHello.ps1 -Name  HelloWorld -Region eu-west-1
 Error retrieving configuration for function HelloWorld: The security token included in the request is invalid.
 Error publishing PowerShell Lambda Function: -1
@@ -60,8 +68,8 @@ CALLSTACK:
 Command                     Arguments
 -------                     ---------
 _deployProject
-Publish-AWSPowerShellLambda \{{Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-we...
-<ScriptBlock>               \{{=$null}, {=$null}, {=$null}, {=$null}}
+Publish-AWSPowerShellLambda {{Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-we...
+<ScriptBlock>               {{=$null}, {=$null}, {=$null}, {=$null}}
 At C:\Program Files\PowerShell\Modules\AWSLambdaPSCore\1.1.0.0\Private\_DeploymentFunctions.ps1:194 char:13
 +             throw $msg
 +             ~~~~~~~~~~
@@ -72,11 +80,12 @@ CALLSTACK:
 Command                     Arguments
 -------                     ---------
 _deployProject
-Publish-AWSPowerShellLambda /{{Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-we...
-<ScriptBlock>               /{{=$null}, {=$null}, {=$null}, {=$null}}
+Publish-AWSPowerShellLambda {{Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-we...
+<ScriptBlock>               {{=$null}, {=$null}, {=$null}, {=$null}}
 ```
 {% endraw %}
-I thought ok maybe I don't have everything that they assumed I would have, I should install the AWS PowerShell module and try to connect with those functions to check if it is me, the lambda functions of what.
+
+I thought ok maybe I don't have everything that they assumed I would have, I should re-install the AWS PowerShell module and try to connect with those cmdlets to check if it is me or the new stuff.
 
 ```powershell
 Install-Module -Name AWSPowerShell -AllowClobber
@@ -114,7 +123,7 @@ PS > Remove-AWSCredentialProfile default
 PS > Publish-AWSPowerShellLambda -ScriptPath .\LambdaHello.ps1 -Name  HelloWorld -Region eu-west-1
 ```
 
-Once I removed the default credential leaving only the one i created with the correct Key and secret it worked!
+Once I removed the default credential leaving only the one I created with the correct Key and secret it worked!
 
 ![PWSH Lambda Published Image]({{ site.url }}/images/PWSH-VSCode-3.PNG)
 
