@@ -31,7 +31,7 @@ Let's Encrypt is as mentioned above how I get HTTPS for the end points of my Ras
 
 My Raspberry Pi sits in a cupboard with only power and ethernet connected to it. There is no need for a video connection unless you are troubleshooting something, even for that I’ve rarely needed more than off and on again a few times.
 
-![Raspberry Pi 1 image]({{ site.url }}/images/MyRaspberryPi-1.PNG)
-![Raspberry Pi 2 image]({{ site.url }}/images/MyRaspberryPi-2.PNG)
+![Raspberry Pi 1 image]({{ site.url }}/images/MyRaspberryPi-1-min.PNG)
+![Raspberry Pi 2 image]({{ site.url }}/images/MyRaspberryPi-2-min.PNG)
 
 So that is the start to my deep dive, there is lots more to come.
