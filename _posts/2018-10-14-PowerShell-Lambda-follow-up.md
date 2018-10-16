@@ -8,7 +8,7 @@ tags: [PowerShell, AWS, Lambda]
 ---
 
 I executed the function from the main page once created and it works!
-![AWS PowerShell Lambda Works Image]({{ site.url }}/images/PowerShell-Lambda-AWS-Works.PNG)
+![AWS PowerShell Lambda Works Image]({{ site.url }}/images/PowerShell-Lambda-AWS-Works-min.PNG)
 
 So it works now what will I do with it. The main reason I get so excited about PowerShell Lambdas is that it recognises PowerShell a 1st class citizen in the cloud. I am from a Microsoft background and have used PowerShell for AD tasks, Exchange Administration and then PowerCLI for VMware automation. PowerShell is the only language I would be able to use for all those platforms, I know there is decent python support for VMware these days but come on, really? Nah I'd be mad to have learned anything but PowerShell. Yet as everything moved to the cloud and Windows and servers became passé I felt left out to be honest because I haven't mastered Python or JS, I've mastered PowerShell. 
 

@@ -10,7 +10,7 @@ A month ago now [AWS announced Lambda support for PowerShell Core](https://aws.a
 
 First things first, I’ll want to setup Visual Studio Code for PowerShell Core not PowerShell v5.1 that I’m currently running. I grabbed the [latest PowerShell release here](https://github.com/PowerShell/PowerShell/releases) and installed it. I also downloaded the [.NET 2.1 Core SDK](https://www.microsoft.com/net/download) because it is used for uploading to Lambda. Lastly I need to install the new [AWS Lambda PSCore module](https://www.powershellgallery.com/packages/AWSLambdaPSCore/1.1.0.0)
 
-![PWSH AWS Lambda Module Install Image]({{ site.url }}/images/PWSH-AWS-Lambda-1.PNG)
+![PWSH AWS Lambda Module Install Image]({{ site.url }}/images/PWSH-AWS-Lambda-1-min.PNG)
 
 ```powershell
 PS > Install-Module -Name AWSLambdaPSCore
