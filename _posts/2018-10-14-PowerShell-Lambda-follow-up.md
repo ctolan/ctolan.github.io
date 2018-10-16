@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PowerShell AWS Lambda Follow Up"
+title:  "Why I love PowerShell AWS Lambda"
 date:   2018-10-14 09:56:31 +0100
 author:
   twitter: ConorT
