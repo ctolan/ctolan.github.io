@@ -7,8 +7,11 @@ author:
 tags: [SEO, Learning]
 ---
 
-I had some idea, but really no idea just how complex Search Engine Optimisation (SEO) had gotten. I have added Google Analytics to this site for insight and experience. I’m only starting out so as expected I’ve next to not readers, but with my PowerShell Lambda posts coming within a month of their publication I thought maybe I’d be higher in the organic ranking for the specific keywords AWS Lambda PowerShell. Boy was I wrong. Not even close to the front page, I’m on with that, it is not why I’m doing this, but it got me wondering why.
+I had some idea, but really no idea just how complex Search Engine Optimisation (SEO) had gotten. I have added Google Analytics to this site for insight and experience. I’m only starting out so as expected I’ve next to not readers, but with my PowerShell Lambda posts coming within a month of their publication I thought maybe I’d be higher in the organic ranking for the specific keywords AWS Lambda PowerShell. Boy was I wrong. 
+
+Not even close to the front page, I’m on with that, it is not why I’m doing this, but it got me wondering why.
 I dug a little bit and started to wonder if my site was SEO optimised or not. I did have the [basic SEO enabled](https://blog.github.com/2016-05-10-better-discoverability-for-github-pages-sites/), but reading a couple of [optimise your Jekyll](https://blog.webjeda.com/optimize-jekyll-seo/) blog posts I found [posts about speed](https://blog.webjeda.com/jekyll-speed/) which linked out to [GTmetrix](https://gtmetrix.com/).
+
 This site was a real eye opener to the sheer complexity of detail that goes into SEO. I had under estimated the impact of not resizing my images and the tests were quick to point out that my 3mb photo could be resized to 1400x800 and optimized to save 82% file size. It is detailed and specific, and highlighted the need for alt text on my images, which mostly I had. It though was able to see that my avatar did not have alt text. I ventured into my layouts and found the image src and added one, I added site.name as that’ll be me and it is better than hard coding it.
 
 ```html
