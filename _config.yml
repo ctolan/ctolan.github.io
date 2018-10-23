@@ -84,6 +84,11 @@ gems:
 
 plugins: [jekyll-paginate, jekyll-seo-tag]
 
+# Tagging layout definition.
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
+
 # Exclude these files from your production _site
 exclude:
   - Gemfile
