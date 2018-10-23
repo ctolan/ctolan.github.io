@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "OpenFaaS - Why Functions"
+date:   2018-10-04 09:56:31 +0100
+---
+
+There is a lot I want to write about Functions as a Service (FaaS), and I don't know whether to start with a dermo or explanation. Since I don't have a demo ready right now I guess I'll go with an explanation of why I'm so excited by the idea.
+
+Functions address the smallest unit of meaningful code you produce, it does something for you. What that means to you will depend on you. For me it when I was on the Automation team one of the pain points was how best to distribute your work to other teams. When we wrote a bit of code we didn't want to stand up a server to run it, it was probably just a script run infrequently, so a long lived server was over kill. We instead stood up an automation server and ran multiple smally tasks from it, but that placed a lot of eggs in one basket. What we needed for a platform like OpenFaas where we could just run code on a scheule or on demand without having to worry about the infrastructure underneat.
+
+I know we could have used containers but FaaS is the better option and brings a lower entry point for other teams. Using containers would have necessitated explaining how to run the container and getting them access to the container platform, which for running a report seems too much.
+
+I see FaaS taking up anywhere from 20-40% of compute down the road, I think it is very likely that our datacentres will be 20% FaaS, 40% Servers 40% Containers, but FaaS will eat into the percentage of containers the same way that containers are eating into servers. For refactoring tasks FaaS makes more sense than a container if you are peeling out small microservices from a monolith.
