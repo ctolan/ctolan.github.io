@@ -2,6 +2,7 @@
 layout: post
 title:  "My First Open Source Contribution - Part 2"
 date:   2018-09-23 09:56:31 +0100
+tags: Opensource
 ---
 
 Picking up right where I left off yesterday **Crap again I’ve not done any testing**, I have come too far now not to keep going. I took a look at their [guide for writing tests](https://atlassianps.org/docs/Contributing/writing-tests.html). Come on seriously?

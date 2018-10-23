@@ -4,7 +4,7 @@ title:  "Why I love PowerShell AWS Lambda"
 date:   2018-10-14 09:56:31 +0100
 author:
   twitter: ConorT
-tags: [PowerShell, AWS, Lambda]
+tags: PowerShell AWS Lambda
 ---
 
 I executed the function from the main page once created and it works!

@@ -2,7 +2,9 @@
 layout: post
 title:  "New Mi Light GU10 Colour Bulb installed"
 date:   2018-09-09 14:56:31 +0100
+tags: HomeAutomation
 ---
+
 Today I found the perfect place for two Mi Light coloured bulbs.
 <iframe width="640" height="360" src="https://www.youtube.com/embed/F4MVav4Dlac" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

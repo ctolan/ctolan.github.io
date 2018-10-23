@@ -2,6 +2,7 @@
 layout: post
 title:  "The 2018 State DevOps Report - Dr Forsgren"
 date:   2018-09-18 09:56:31 +0100
+tags: DevOps
 ---
 
 Well yesterday was fun, I got to go to the [Software As Craft event](https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x480603296e6) in the new Microsoft buidling in Leapardstown. The main draw for me was to hear the author of Accelerate speak. I have listened to the audio version of that book more than once and highly recommend it for anyone still arguing with colleagues about what measures are most effective or worse if you even need to be Agile and do DevOps. 

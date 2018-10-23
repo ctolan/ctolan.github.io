@@ -2,6 +2,7 @@
 layout: post
 title:  "Loving GitHub Pages"
 date:   2018-09-15 09:56:31 +0100
+tags: Jeykll-blog GitHub-Pages
 ---
 I'm writing this update on my phone at the airport, the beauty of GitHub is that it is available everywhere. To post or edit now I don't need to be at my computer.
 

@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: SEO"
-tag: SEO
+title: "Tag: MSc"
+tag: MSc
 robots: noindex
 ---

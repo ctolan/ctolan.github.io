@@ -2,6 +2,7 @@
 layout: post
 title:  "Cancel Successful Projects"
 date:   2018-09-26 09:56:31 +0100
+tags: DevOps Mark-Schwartz
 ---
 
 I recently stumbled across Mark Schwartz again as Jude is reading two of his books that I highly recommend for anyone  working in IT and Agile, [The Art of Business Value](https://www.amazon.co.uk/Art-Business-Value-Mark-Schwartz/dp/1942788045/) and [A Seat at the Table](https://www.amazon.co.uk/Seat-Table-Leadership-Age-Agility/dp/1942788118/). His writing challenges whether we know what we really mean when we say that Agile delivers more business value than waterfall. Sure people say it all the time, but what does it mean, and how do we know?

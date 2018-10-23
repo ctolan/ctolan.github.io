@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Hey Google, put up the blinds!"
+tags: HomeAutomation
 ---
 
 So what happens in your house when you say "Hey Google, put up the blinds!"

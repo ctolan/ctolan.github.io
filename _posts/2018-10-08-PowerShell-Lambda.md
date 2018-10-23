@@ -2,6 +2,7 @@
 layout: post
 title:  "Getting Started with PowerShell AWS Lambda"
 date:   2018-10-08 09:56:31 +0100
+tags: PowerShell Lambda
 author:
   twitter: ConorT
 ---

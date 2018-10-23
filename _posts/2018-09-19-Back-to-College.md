@@ -2,6 +2,7 @@
 layout: post
 title:  "Back To College - Org Structure"
 date:   2018-09-19 09:56:31 +0100
+tags: MSc DevOps
 ---
 
 Tuesday I was back in college for semister two of my [Masters in DevOps](https://www.it-tallaght.ie/contentFiles//Documents/life_long_learning/2017/MSc_in_DevOps.pdf). The two modules are **Continuous Software Delivery** and **Human Org Skills**. These will run between now and December and we're off at pace, the first assignment was handed out already.

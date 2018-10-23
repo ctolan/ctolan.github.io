@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: SEO"
-tag: SEO
+title: "Tag: AWS-CSA"
+tag: AWS-CSA
 robots: noindex
 ---

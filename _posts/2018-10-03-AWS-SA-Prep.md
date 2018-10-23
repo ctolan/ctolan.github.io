@@ -2,6 +2,7 @@
 layout: post
 title:  "AWS Solutions Architect - Professional Prep - Instance Types"
 date:   2018-10-03 09:56:31 +0100
+tags: AWS-CSA Certified-Solutions-Architect
 ---
 
 Back at my [AWS Certified Solutions Architect - Professional](https://aws.amazon.com/certification/certified-solutions-architect-professional/) prep reviewing the Whizlab practice exams.

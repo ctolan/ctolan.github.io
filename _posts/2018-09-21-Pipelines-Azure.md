@@ -2,6 +2,7 @@
 layout: post
 title:  "Pipelines, Pipelines, Pipelines - Azure"
 date:   2018-09-21 09:56:31 +0100
+tags: DevOps Azure Pipelines
 ---
 
 I'm going back back to Azure Azure! We had the first class in the Continuous Software Delivery module last night and it was both thrilling and terrifying. I'm going to have to write come C# code, but it is not the focus of the course just a part of it. 

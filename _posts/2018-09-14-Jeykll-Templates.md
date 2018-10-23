@@ -2,6 +2,7 @@
 layout: post
 title:  "Jeykll Templates Look Awesome"
 date:   2018-09-14 09:56:31 +0100
+tags: Jeykll-blog
 ---
 
 I have been playing with themes for this blog and there are a few cool ones I’d like to try out. One project by Phlow looks great <a href="https://github.com/Phlow/feeling-responsive">feeling-responsive</a> you can see the <a href="http://phlow.github.io/feeling-responsive/">demo site</a>.

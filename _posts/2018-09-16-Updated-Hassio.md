@@ -2,6 +2,7 @@
 layout: post
 title:  "Updated Hassio via API"
 date:   2018-09-16 09:56:31 +0100
+tags: HomeAutomation Hassio RaspberryPi
 ---
 
 That took too long! I have spent quite a bit of time today trying to fix my broken Home Assistant setup. It was not totally broken, but there was a bug in version 0.75 preventing me from accessing the Hassio page where i could then update to a non-buddy version. I found the issue page with a quick Google but as I've mentioned in my last post, I don’t have a screen or keyboard attached to my Raspberry Pi. It sits in a cupboard.

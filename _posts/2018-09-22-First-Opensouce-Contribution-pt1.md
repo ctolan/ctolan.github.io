@@ -2,6 +2,7 @@
 layout: post
 title:  "My First Open Source Contribution - Part 1"
 date:   2018-09-22 09:56:31 +0100
+tags: Opensource
 ---
 
 Yesterday was a big day for me, inspired by the talk from Maggie Pint at Microsoft's Leopardstown campus on Monday, I took another look at contributing to an open source project. I know I am fluent in PowerShell, so surely there is something out there that I can help with. The talk by Maggie informed me of a practice among the open source community of tagging entry level issues as "up-for-grabs" so I search GitHub for "up-for-grabs"+"PowerShell" and obviously I got 100's of hits. I eventually came across a project that I recognised, [JiraPS](https://github.com/AtlassianPS/JiraPS/). We use the Atlassian stack in work and I'm familiar with the Jira APIs because I've written functions for personal use to speed up our Sprint Planning and Refinement ceremonies with hardcoded team values etc.

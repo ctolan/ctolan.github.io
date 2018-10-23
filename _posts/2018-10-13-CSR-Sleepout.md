@@ -4,7 +4,7 @@ title:  "CSR Sleep Out - Focus Ireland"
 date:   2018-10-13 09:56:31 +0100
 author:
   twitter: ConorT
-tags: [CSR, Focus Ireland, Charity]
+tags: CSR Focus-Ireland Charity
 ---
 
 ![Sleep Out for Focus Ireland Image]({{ site.url }}/images/20181012_182217-min.jpg)Friday night I slept out with Focus Ireland and their Shine a Light campaign. It was quite the eye opener and something I will never forget. I am delighted to have exceeded my goal of 500 euro with a [final count of 660](https://shinealightw.everydayhero.com/ie/shine-a-light-2018-7), I am over the moon.

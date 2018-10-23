@@ -2,6 +2,7 @@
 layout: post
 title:  "Jeykll Double Boxed Codeblock - GitHub Pages"
 date:   2018-09-24 09:56:31 +0100
+tags: Jeykll-blog
 ---
 
 Short one today, I spent a bit of time trying to solve a minor problem with my markdown and I learned a bit along the way. I am still getting to know Markdown and that there are in fact many flavours of it not all supported everywhere.

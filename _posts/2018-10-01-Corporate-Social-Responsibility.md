@@ -2,6 +2,7 @@
 layout: post
 title:  "Corporate Social Responsibility"
 date:   2018-10-1 09:56:31 +0100
+tags: CSR
 ---
 
 On October 12th I will be taking part in Focus Ireland's [Shine a Light](https://shinealightw.everydayhero.com/ie/shine-a-light-2018-7) event. It will be quite the experience and the long range BBC weather forcast looks like rain!

@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: SEO"
-tag: SEO
+title: "Tag: Pipelines"
+tag: Pipelines
 robots: noindex
 ---

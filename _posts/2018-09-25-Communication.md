@@ -2,6 +2,7 @@
 layout: post
 title:  "Communication"
 date:   2018-09-25 09:56:31 +0100
+tags: Thinking-Out-Loud
 ---
 
 Tonight’s lecture was all about communication, the different methods and approaches that lead to better outcomes, better communication of the message. It is something we do all the time, but how often do we do consider if we are doing it well?

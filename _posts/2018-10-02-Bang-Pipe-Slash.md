@@ -2,6 +2,7 @@
 layout: post
 title:  "Bang Pipe Slash"
 date:   2018-10-1 09:56:31 +0100
+tags: Thinking-Out-Loud
 ---
 
 
