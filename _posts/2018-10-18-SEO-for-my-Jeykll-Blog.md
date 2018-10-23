@@ -4,7 +4,7 @@ title:  "Starting To Learn SEO"
 date:   2018-10-18 09:56:31 +0100
 author:
   twitter: ConorT
-tags: [SEO, Learning]
+tags: SEO Learning
 ---
 
 I had some idea, but really no idea just how complex Search Engine Optimisation (SEO) had gotten. I have added Google Analytics to this site for insight and experience. I’m only starting out so as expected I’ve next to not readers, but with my PowerShell Lambda posts coming within a month of their publication I thought maybe I’d be higher in the organic ranking for the specific keywords AWS Lambda PowerShell. Boy was I wrong. 
