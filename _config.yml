@@ -82,7 +82,7 @@ gems:
   - jekyll-tagging # Tagging plugin for sorting content.
   - jekyll/tagging # Same as above.
 
-plugins: [jekyll-paginate, jekyll-seo-tag]
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-tagging]
 
 # Tagging layout definition.
 tag_page_layout: tag_page
