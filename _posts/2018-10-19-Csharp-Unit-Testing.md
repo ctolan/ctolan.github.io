@@ -4,7 +4,7 @@ title:  "C# Unit Tests"
 date:   2018-10-19 09:56:31 +0100
 author:
   twitter: ConorT
-tags: C# Learning
+tags: C Learning
 ---
 
 For this semesters college project we are tasked with implement continuous software delivery through a pipeline performing unit test, integration tests, user acceptance tests and performance tests. It is a great project, I'm actually excited to get to do it. We have been given a mostly completed C# application that calculates your blood pressure and we've have to complete the program, add a feature of our choosing and create the continuous delivery pipeline with all the bells and whistles we can muster.
