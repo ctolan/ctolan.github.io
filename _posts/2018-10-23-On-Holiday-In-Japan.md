@@ -11,4 +11,4 @@ I should not understate this though, we would have been lost without Google and 
 
 Well, I enjoyed navigating when there was no time pressure to be somewhere for a flight or specific train, I’m working on my anxiousness. The Japan Rail pass really helped with this, when I realised that if we missed the reserved seats we just reserve more because there all already paid for. I’m not 100% sure we saved much money getting the rail pass, we did take the JR trains as often as possible but 350euro is a lot of travel to make up. I’m writing this post on a bullet train from Kyoto back to Tokyo, we were really flying along for stretches.  Yesterday we did Kyoto to Osaka in 30 min, it is no understatement to say rail makes travelling Japan very accessible. Anyway I better sign off, only 7 minutes to go, I’ll loop back around to this post and add pictures. Then the plan is to go back over my photos and retrospectively blog for the various days I missed. 
 
-Oh and we did the presentation last Friday and think it went well, we better get an A. 
+Oh and we did the presentation last Friday and think it went well, we better get an A.
