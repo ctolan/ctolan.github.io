@@ -43,6 +43,7 @@ Click the + if you do not see it the first time after a restart. I needed to ack
 Ok let us get to the code:
 
 {% raw %}
+
 ```powershell
 PS > New-AWSPowerShellLambda -ScriptName LambdaHello -Template Basic
 WARNING: This script requires the AWSPowerShell.NetCore module which is not installed locally.
@@ -86,6 +87,7 @@ _deployProject
 Publish-AWSPowerShellLambda {{Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-west-1$null}, {Region=eu-we...
 <ScriptBlock>               {{=$null}, {=$null}, {=$null}, {=$null}}
 ```
+
 {% endraw %}
 
 *Errors* Quick get back to Google.
@@ -115,7 +117,7 @@ PS C:> Set-AWSCredentials -AccessKey 123MYACCESSKEY -SecretKey 456SECRETKEY -Sto
 
 I was now able to list all AMI's on eu-west-1, but still not able publish my Lambda!
 
-I gave up for the night and came back starting with again with Google, I 
+I gave up for the night and came back starting with again with Google, I
 [found the answer](https://stackoverflow.com/questions/43195587/aws-powershell-use-stsrole-the-security-token-included-in-the-request-is-inval). When I listed the credentials in my session there were two.
 
 ```powershell

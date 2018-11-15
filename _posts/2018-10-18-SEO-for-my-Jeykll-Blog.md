@@ -7,7 +7,7 @@ author:
 tags: SEO Learning
 ---
 
-I had some idea, but really no idea just how complex Search Engine Optimisation (SEO) had gotten. I have added Google Analytics to this site for insight and experience. I’m only starting out so as expected I’ve next to not readers, but with my PowerShell Lambda posts coming within a month of their publication I thought maybe I’d be higher in the organic ranking for the specific keywords AWS Lambda PowerShell. Boy was I wrong. 
+I had some idea, but really no idea just how complex Search Engine Optimisation (SEO) had gotten. I have added Google Analytics to this site for insight and experience. I’m only starting out so as expected I’ve next to not readers, but with my PowerShell Lambda posts coming within a month of their publication I thought maybe I’d be higher in the organic ranking for the specific keywords AWS Lambda PowerShell. Boy was I wrong.
 
 Not even close to the front page, I’m on with that, it is not why I’m doing this, but it got me wondering why.
 I dug a little bit and started to wonder if my site was SEO optimised or not. I did have the [basic SEO enabled](https://blog.github.com/2016-05-10-better-discoverability-for-github-pages-sites/), but reading a couple of [optimise your Jekyll](https://blog.webjeda.com/optimize-jekyll-seo/) blog posts I found [posts about speed](https://blog.webjeda.com/jekyll-speed/) which linked out to [GTmetrix](https://gtmetrix.com/).
