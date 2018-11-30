@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Selenium Tests in Azure DevOps"
-date:   2018-11-07 09:56:31 +0100
+date:   2018-11-13 09:56:31 +0100
 tags: DevOps MSc Azure
 ---
 
