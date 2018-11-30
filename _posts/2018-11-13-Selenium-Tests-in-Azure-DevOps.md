@@ -14,7 +14,8 @@ I spent a lot of time now knowing whether I was doing something wrong or just di
 It is wrong to do a build of code and then to run Selenium tests against a previously deployed version of the WebApp but at this point I just need to know that I can run the tests, that they work. Because there are all the other things that I had to do to get this working that did work, but it’s the one that didn’t that leaves a mark. For example there is changing reference to the chromeDriver so that it points to the one that is actually on the Azure host, but that is covered in the Documentation quite well. 
 
 Oh and let me not to forget I also spent days working with the wrong test project altogether. I created a Unit test project (.NET) instead of an xUnit (.NET Core) project. I was running into all sorts of missing package problems along with my missing assemblies. Ugh.
-[nUnit vs xUnit Project Image]({{ site.url }}/images/nUnitVsxUnit.PNG)
+
+![nUnit vs xUnit Project Image]({{ site.url }}/images/nUnitVsxUnit.PNG)
 
 Where does all this leave me, I need to copy over those .dll’s to the deployment package location prior to it being zipped (as was actually shown in the sample code from the lecturer). Lesson learned on this one, stick to the lecturers provided material first and Google second. I have to assume he completed the project himself before assigning it out to us. So he knows it is possible to accomplish.
 
