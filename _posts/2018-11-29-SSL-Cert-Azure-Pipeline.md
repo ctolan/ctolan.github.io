@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Pipeline in Azure DevOps"
+title:  "SSL Cert Azure Web Apps"
 date:   2018-11-29 09:56:31 +0100
 tags: Azure DevOps MSc Certbot
 ---
+
+In this post I will show you how I used LetsEncrypt to create an SSL cert which I was able to then apply to my Azure Web App. This meant I was able to use my custom domain name with https without the security warning caused by the wildcard Azure cert not matching my domain.
 
 
 PS C:\Users\ctola> docker run -it --rm --name certbot -v "C:/etc/letsencrypt:/etc/letsencrypt"-v "C:/var/lib/letsencrypt:/var/lib/letsencrypt" certbot/certbot certonly --manual --preferred-challeng
