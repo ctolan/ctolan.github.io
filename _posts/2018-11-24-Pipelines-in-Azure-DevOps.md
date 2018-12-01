@@ -7,7 +7,6 @@ tags: Azure DevOps MSc
 
 I got there in the end, I'm calling done for my pipeline. It meets all the requirements with a couple of extras that I hope add enough for a great grade. I put so much time into this because I really wanted to crack it, in a lot of ways this is my new niche. Coming from a Systems Admin/Engineer background handling the deployment of code to the runtime is my wheelhouse. The pipeline also closed a knowledge gap that I had, I must admit I didn’t know exactly the deployed app emerged from lines of code to a built app that was then deployed.
 
-
 I knew about deploying completed apps, the architecture design, the install and configuration, but not the compile stage. I don’t think I believed it could be as easy as 
 
 ```powershell
@@ -26,9 +25,7 @@ Ah sure no one is reading this yet so here is a screenshot of the pipeline, beau
 
 ![Full Azure Pipeline]({{ site.url }}/images/Full-Pipeline-1.PNG)
 
-Sonar Qube was a pretty cool new tool for me, since the majority of my code is PowerShell I am most familiar with the [PowerShell Script analyser](https://github.com/PowerShell/PSScriptAnalyzer), this is definetly a post all on its own, I’ll still include the link I followed to get SonarQube working in the pipeline in case it helps anyone.
-
-![Sonar Qube Extension for VSTS](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Extension+for+VSTS-TFS)
+Sonar Qube was a pretty cool new tool for me, since the majority of my code is PowerShell I am most familiar with the [PowerShell Script analyser](https://github.com/PowerShell/PSScriptAnalyzer), this is definetly a post all on its own, I’ll still include the link I followed to get SonarQube working in the pipeline in case it helps anyone.[Sonar Qube Extension for VSTS](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Extension+for+VSTS-TFS)
 
 As I mentioned above there is still a lot of breaking down and fleshing out I need to do, but this is a good start. I’ll need to maintain the context over the series of posted because in isolation if I go deep on a topic it might not make sense. 
 
