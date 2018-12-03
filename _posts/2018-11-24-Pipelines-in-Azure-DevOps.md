@@ -28,7 +28,7 @@ Ah sure no one is reading this yet so here is a screenshot of the pipeline, beau
 
 Sonar Qube was a pretty cool new tool for me, since the majority of my code is PowerShell I am most familiar with the [PowerShell Script analyser](https://github.com/PowerShell/PSScriptAnalyzer), this is definetly a post all on its own, I’ll still include the link I followed to get SonarQube working in the pipeline in case it helps anyone.
 
-![Sonar Qube Extension for VSTS](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Extension+for+VSTS-TFS)
+[Sonar Qube Extension for VSTS](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Extension+for+VSTS-TFS)
 
 As I mentioned above there is still a lot of breaking down and fleshing out I need to do, but this is a good start. I’ll need to maintain the context over the series of posted because in isolation if I go deep on a topic it might not make sense. 
 
