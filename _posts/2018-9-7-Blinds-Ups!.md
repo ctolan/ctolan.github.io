@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Hey Google, put up the blinds!"
-tags: HomeAutomation
+tags: HomeAutomation Hey-Google
 ---
 
 So what happens in your house when you say "Hey Google, put up the blinds!"
 
 In my house a complicated series of events and triggers tell the three roller binds roll up to let in the light. 
 
-Check out a short video i took <a href="https://youtu.be/gsLj6woppl0"> here on YouTube</a>
+Check out a short video I took <a href="https://youtu.be/gsLj6woppl0"> here on YouTube</a>
 <iframe width="726" height="408" src="https://www.youtube.com/embed/gsLj6woppl0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 So what exactly happens?
