@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Pipeline in Azure DevOps"
+title:  "How did you learn about Computers? Computer Science In Schools"
 date:   2018-11-14 09:56:31 +0100
-tags: Azure Devps MSc
+tags: MSc
 ---
 
 https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Extension+for+VSTS-TFS

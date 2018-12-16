@@ -21,6 +21,6 @@ Where does all this leave me, I need to copy over those .dll’s to the deployme
 
 Much more to do with this pipeline, I need to put some real thought into the stages and flow but so far I hve been focused on learning what is what and getting the bits working.
 
-Thanks for eading,
+Thanks for reading,
 
 Conor.
