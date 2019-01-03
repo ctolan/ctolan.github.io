@@ -21,4 +21,4 @@ It is a reasonable release strategy for what i need to do. If i only had one URL
 
 I will need to adjust my own tests since the free tier does not support custom domains, in my college project I had a post-prod validation test task to check my site was up on the custom subdomain.
 
-Here it is [my Blood Pressure Category App](http://bpcalculator-2-prod-as.azurewebsites.net/). I am working on getting basic forwarding working for the old custom DNS name bc.conortolan.com going again. I liked how memorable it was, I have my next App idea ready to start shortly and will use something similar.
+Here it is [my Blood Pressure Category App](http://bpcalculator-2-prod-as.azurewebsites.net/). I am working on getting basic forwarding working for the old custom DNS name https://bp.conortolan.com going again. I liked how memorable it was, I have my next App idea ready to start shortly and will use something similar.
