@@ -7,6 +7,6 @@ tags: Azure DevOps MSc
 
 ![Azure New Web App Image]({{ site.url }}/images/SonarCloud-Azure-Pipeline-1.PNG)
 
-![Azure New Web App Image]({{ site.url }}/images/SonarCloud-Rule-1.PNG)
+![Azure New Web App Image]({{ site.url }}/images/SonarCloud-Rules-1.PNG)
 
 ![Azure New Web App Image]({{ site.url }}/images/SonarCloud-SonarWay-1.PNG)
