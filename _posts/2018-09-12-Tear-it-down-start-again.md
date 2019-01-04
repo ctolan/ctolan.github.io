@@ -5,7 +5,7 @@ date:   2018-09-12 09:56:31 +0100
 tags: Jeykll-blog
 ---
 
-# Not yet working - Updated
+*Not yet working - Updated*
 The HTTPS and DNS forwarding are not working yet, so I'm going to do what we always do in situations like this tear it all down, go back and do it again. This time with knowledge I didn't have the first time.
 
 First I deleted the 4 A records in GoDaddy.com, I’m giving them 30min to clear as that was the TTL (time-to-live).
