@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learn Azure Pipelines Project"
-date:   2019-01-03 09:56:31 +0100
+date:   2019-01-08 09:56:31 +0100
 tags: Azure Pipelines BPApp
 ---
 
@@ -9,7 +9,7 @@ Here it is, the start of the Azure Pipeline project series that I’m going to p
 
 # DevOps CI/CD Pipeline Learning Project
 
-##Project Application:
+## Project Application:
 Your blood pressure is calculated from your Systolic and Diastolic readings. Given these two numbers, your blood pressure is classified as Low, Ideal, Pre-High and High.
 
 ![BP Chart image]({{ site.url }}/images/BPChart.jpg)
