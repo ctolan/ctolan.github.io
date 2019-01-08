@@ -2,8 +2,10 @@
 layout: post
 title:  "Learn Azure Pipelines Project"
 date:   2019-01-03 09:56:31 +0100
-tags: Azure Pipelines
+tags: Azure Pipelines BPApp
 ---
+
+Here it is, the start of the Azure Pipeline project series that I’m going to publish for others to follow along. This was a college assignment which I particularly enjoyed and found useful in the new age of DevOps. I found it so good I felt compelled to share it. It is hosted on Azure and can be done entirely on the free tier, for my college project I used some paid features but I've rolled those back now and it is still as good as ever. This series will walk through all the steps to get your own CI/CD pipeline up and running on Azure for free. This is a great opportunity to get hands on and learn the fiddly bits yourself, in may large organizations these details are kept behind the curtain and you miss out on knowing how they actually work (it is easier than you probably expected). So let’s jump in with an opening post setting out the App and the Ask, I will follow up with the first steps post shortly.
 
 # DevOps CI/CD Pipeline Learning Project
 
