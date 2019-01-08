@@ -36,7 +36,7 @@ You are tasked with getting the project into a better DevOps posture. They need 
 
 ## High Level Tasks (not in any order):
 
-- Get [Visual Studio Community edition](https://visualstudio.microsoft.com/free-developer-offers/) [Macs](https://visualstudio.microsoft.com/vs/mac/).
+- Get [Visual Studio Community edition](https://visualstudio.microsoft.com/free-developer-offers/) / [[Macs](https://visualstudio.microsoft.com/vs/mac/)].
 - The application is incomplete and will not build. Write the missing code in line with the specification of the chart above, and be able to develop locally (Ctrl-F5 to launch locally). Review the code in the [BMI calculator app](http://bpcalculator-2-prod-as.azurewebsites.net/) for help.
 - The application has no unit tests, add a test project and [write some tests](https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics%3Fview%3Dvs-2017). Test locally with [Test Explorer](https://docs.microsoft.com/en-us/visualstudio/test/run-unit-tests-with-test-explorer?view=vs-2017).
 - Stand up an initial build pipeline to pull the code from the repo.
