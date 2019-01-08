@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hey Google Turn On Christmass"
+title:  "Hey Google Turn On Christmas"
 date:   2018-12-13 09:56:31 +0100
 tags: Hey-Google HomeAutomation
 ---
