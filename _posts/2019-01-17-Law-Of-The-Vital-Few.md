@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Law Of The Vital Few (80/20)"
+date:   2019-01-16 09:56:31 +0100
+tags: Out-loud
+---
+
+I am going to do some thinking out loud as I wait for my delayed flight to board. I have been thinking about the year ahead and what I want to accomplish, but I have too many ideas that all seem valid objectives. I came across The Law of the Vital Few in Deep Work by Cal Newport, this is also known as the 80-20 rule or [The Pareto Principle](https://en.wikipedia.org/wiki/Pareto_principle). I want to be clever in what I commit to knowing that the majority of the benefit should come from just one or two of the most important projects. If I over commit to things I am taking effort away from another project - how much project time I have is a zero sum game. So the more I commit to the less I'll accomplish, this is difficult to accept. 
+
+Do I focus on the opensource projects or the Azure pipeline project? Do I focus on learning Python or C#? Argh, surely I should be focused on my MSc and the course work that is coming my way starting next week. And what about my intention to create and publish some web apps, I guess this can be tied to learning C# or Python. This idea agrees with what Jon Sonmez says about multitasking, in The Complete Software Developer's Career Guide, about making one piece of work do more than one thing for you.
+
+I probably need to take a bit of my own advice and force rank the backlog and see what comes out where. I am trying to internalize the advice from Deep Work, that book really stuck a cord with me. I listened to it 3 times, only taking a break to listen to his earlier book So Good They Can't Ignore You. There is real insight in the book for knowledge workers, we live in such a distracted world that we need to actively work to focus and regain control of our mind.
+
+I've started with a few small steps, which sync up with mindfulness quite well. For example practicing being ok with being bored. My mindfulness practice is about quieting the mind to find more peace, but is also beneficial to improving your focus. I have become viscerally aware that when I first try to focus on a task my mind jumps in with a thought - why not do this instead? - mindfulness has helped to observe this thought for what it is and I get the opportunity to double down and focus. It has really helped. 
+
+There is also a tip in the book about scheduling distraction instead of scheduling focus time. So there is the Pomodoro technique which I've been practicing, especially for College work. This technique involves setting a timer for a fixed amount of time and not breaking away from your focused task until the timer is up, but when it is finished you should take a break - walk away. There is a theory or attention restoration, and when you take a break you recharge your ability to focus. After a few sessions they get faster and you suddenly realize you've been working for 1-2 hours at a time. I knocked out an research paper in two days over the winter holidays.
+
+So where does this leave me, I still want to do too much at once. Perhaps and this year will tell, if i follow the rules and get focused I will increase my productively sufficiently to achieve it all. Cal Newport reports that he greatly exceeded his own expectations for productivity when he started to be more disciplined. It is funny, it feels like the way to focus more is to first commit to focusing more, then you still need to work hard to undo all the distraction prone programming we've been through. I have removed the new app from my phone so that I am no longer checking The Journal for the latest news, I have not missed it. I still get the news but when I choose to, not when it arrives on my phone, speak of the devil, I’ve been at this for a while I’ll probably take a break now.
+
+Thanks for reading.
