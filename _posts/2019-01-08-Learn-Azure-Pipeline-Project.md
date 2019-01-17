@@ -58,5 +58,4 @@ You are tasked with getting the project into a better DevOps posture. They need 
 This is a task I was assigned on a college course and felt it would be valuable to share. This took many days and nights of work it is not something you will complete start to finish in one sitting it is a project that you will develop over a few weeks of work as you learn as you go.
 
  
-
-This is not official Liberty training. This is an interesting personal challenge that anyone can undertake to explore and experiment current DevOps tools and practices. When written it was possible to do all of this on the free tier of Azure, but this may change.
+This is an interesting personal challenge that anyone can undertake to explore and experiment current DevOps tools and practices. When written it was possible to do all of this on the free tier of Azure, but this may change.
