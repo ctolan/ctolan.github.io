@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: C"
-tag: C
+title: "Tag: Ansible"
+tag: Ansible
 robots: noindex
 ---
