@@ -1,61 +1,76 @@
 ---
 layout: post
-title:  "Learn Azure Pipelines Project"
-date:   2019-01-08 09:56:31 +0100
+title:  "Day 1: Azure Pipelines Project"
+date:   2019-01-27 09:56:31 +0100
 tags: Azure Pipelines BPApp
 ---
 
-Here it is, the start of the Azure Pipeline project series that I’m going to publish for others to follow along. This was a college assignment which I particularly enjoyed and found useful in the new age of DevOps. I found it so good I felt compelled to share it. It is hosted on Azure and can be done entirely on the free tier, for my college project I used some paid features but I've rolled those back now and it is still as good as ever. This series will walk through all the steps to get your own CI/CD pipeline up and running on Azure for free. This is a great opportunity to get hands on and learn the fiddly bits yourself, in may large organizations these details are kept behind the curtain and you miss out on knowing how they actually work (it is easier than you probably expected). So let’s jump in with an opening post setting out the App and the Ask, I will follow up with the first steps post shortly.
+Ok, so let’s start this project. First get [Visual Studio Community](https://visualstudio.microsoft.com/free-developer-offers/) from Microsoft’s free resources page. Download and install it.
 
-# DevOps CI/CD Pipeline Learning Project
+![New GitHub Repo image]({{ site.url }}/images/ Visual-Studio-Community-1.PNG)
 
-## Project Application:
-Your blood pressure is calculated from your Systolic and Diastolic readings. Given these two numbers, your blood pressure is classified as Low, Ideal, Pre-High and High.
+If you don’t have one yet register for a free GitHub account. When I initially did this project, I used Azure Repo’s but this time I want to use GitHub. Since this project is not about developing an app from scratch there is an almost complete app to start from. Let us clone that into our repository now.
 
-![BP Chart image]({{ site.url }}/images/BPChart.jpg)
+Got to [https://github.com/ctolan/bp](https://github.com/ctolan/bp) and Fork the project into your own account. I tried to fork the original project again, but it won’t let me since I’ve already done it. So, I’ll fudge it by using GIT to get a new copy of the base app in a new folder “BP-2019”
 
-![BP App Snip image]({{ site.url }}/images/BPappSnip.png)
+![New GitHub Repo image]({{ site.url }}/images/Git-Clone-1.PNG)
 
+You should be able to use the “Fork” functionality without issue. It will copy the repository into your own account so that you will have you own copy of the code to do with as you wish without impacting anyone else’s copy.
 
-## Project Outline:
+I’ll create a new Git Repo and sync up what I just downloaded with the repo. To do this I unhide the .git folder and then deleted it (that removes any link to the other git repo), then I initialised the folder as a new git repo, added all the files, committed them and pushed up to the new remote location.
 
-Joining a team with a mostly complete [ASP.NET Core](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-dotnet) web application, the challenge is to design and configure a Continuous Integration and Continuous Delivery pipeline in the [Azure DevOps](https://dev.azure.com/) / [Azure Public Cloud.](https://azure.microsoft.com/)
+```bash
+$ git init
+Initialized empty Git repository in C:/Code/BP-2019/.git/
+$ git add ./*
+$ git commit -m "initial commit of new repo"
+$ git remote add origin https://github.com/ctolan/BP-2019.git
+$ git push -u origin master
+```
 
-You are tasked with getting the project into a better DevOps posture. They need a CI/CD pipeline that will meet the following:
+Ok so I have the repo with the base application, next step is to open this in Visual Studio. In your repo click the “Clone or download button” this give you the URL to the repo.
+![New GitHub Repo image]({{ site.url }}/images/Clone-Download-1.PNG)
 
- 
+Open Visual Studio – from the “File” menu select “Open from Source Control”. Oh wait well look at this, it’s the first difference from using GitHub instead of Azure Repos. I thought I could connect “Team Explorer” with the repo since Microsoft bought GitHub, but not yet or I’m missing something.
 
-- [Continuous Integration](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/ci-build-github%3Fview%3Dvsts) - The application is [built and tested](https://docs.microsoft.com/en-us/azure/devops/pipelines/test/getting-started-with-continuous-testing%3Fview%3Dvsts) on each push of code to the repository. [[unit tests](https://docs.microsoft.com/en-us/visualstudio/test/getting-started-with-unit-testing%3Fview%3Dvs-2017) and [code quality/static analysis](https://sonarcloud.io/)].
-- [Continuous Delivery](https://docs.microsoft.com/en-us/azure/devops/pipelines/apps/cd/deploy-webdeploy-webapps%3Fview%3Dvsts) - The application is deployed and undergoes automate User Acceptance testing [[Selenium](https://docs.microsoft.com/en-us/azure/devops/pipelines/test/continuous-test-selenium%3Fview%3Dvsts) and performance tests].
-- Expected behavior - a developer pushes new code and so long as [all tests pass](https://docs.microsoft.com/en-us/azure/devops/pipelines/test/review-code-coverage-results%3Fview%3Dvsts) the update is published to the Production WebApp Url.
-- If the code quality is too low, or the Web App functionality (UAT tests) fail then the build should fail and not be deployed to Production.
-- Optionally – continue development of the application and add a new feature of your own creation (include tests).
- 
+Anyway, you can still pull down the files with usual way with Git. I didn’t mention it yet but you will want to download [Git for your platform](https://git-scm.com/downloads). Once installed, open Git-CMD on Windows and decide/navigate to where you want to clone the project to.
 
---------------
+```bash
+C:\Code> git clone https://github.com/ctolan/BP-2019.git
+```
 
-## High Level Tasks (not in any order):
+The above command will clone the GitHub project into a new folder named the same as the GitHub project. Done.
 
-- Get [Visual Studio Community edition](https://visualstudio.microsoft.com/free-developer-offers/) / [[Macs](https://visualstudio.microsoft.com/vs/mac/)].
-- The application is incomplete and will not build. Write the missing code in line with the specification of the chart above, and be able to develop locally (Ctrl-F5 to launch locally). Review the code in the [BMI calculator app](http://bpcalculator-2-prod-as.azurewebsites.net/) for help.
-- The application has no unit tests, add a test project and [write some tests](https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics%3Fview%3Dvs-2017). Test locally with [Test Explorer](https://docs.microsoft.com/en-us/visualstudio/test/run-unit-tests-with-test-explorer?view=vs-2017).
-- Stand up an initial build pipeline to pull the code from the repo.
-- Stand up a release pipeline to connect to Azure and publish the app as a [Azure Web App](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-overview). You can run up to 10 [Web Apps for free](https://azure.microsoft.com/en-us/free/) so it should not cost you anything to run a Dev and Prod web app.
-- Write some Selenium tests to imitate user behavior, (enter data – check for correct output).
-- Fork your own copy from [https://github.com/ctolan/bp](https://github.com/ctolan/bp) to Azure Repos or GitHub (both can be a source for a Azure Pipeline).
-- Improve your pipeline, be sure Production is not affected by a bad development deployment.
-- Consider a load balancer in front of multiple instances of the App for High Availability. Can your app survive a region outage?
-- Improve code quality – get a [SonarCloud.io account](https://sonarcloud.io/) and configure your project for analysis (free if project is public). Fix or exclude the issues found.
-- Configure continuous quality testing by configuring a quality gate in the build pipeline to break the build if not good enough.
-- Set up a [Google Analytics account](https://analytics.google.com/analytics/web/) and add the Web App for insight into customer usage and demographics. Do you need a notification about cookies now (GDPR)?
-- Ensure necessary test files from build are packaged with the “drop”.
-- You can add script (PowerShell) tasks that will print out (Write-host) "dir" to the logs.
-- You can use copy, zip and extract tasks if needed.
- 
+Back to Visual Studio after that slight detour. From the “Open” menu select “Open project/solution” (this project comes with solution (.sln) for Visual Studio to help get started), navigate to the location where you cloned the repository into. You will see a file called BPCalculator.sln, select it. Visual Studio will do its thing.
 
-## Notes:
+![Open Project image]({{ site.url }}/images/Open-Project-1.PNG)
 
-This is a task I was assigned on a college course and felt it would be valuable to share. This took many days and nights of work it is not something you will complete start to finish in one sitting it is a project that you will develop over a few weeks of work as you learn as you go.
+Hopefully you will get something that looks like this.
 
- 
-This is an interesting personal challenge that anyone can undertake to explore and experiment current DevOps tools and practices. When written it was possible to do all of this on the free tier of Azure, but this may change.
+![Fresh Project image]({{ site.url }}/images/Fresh-Project-1.PNG)
+
+You can launch the application in Debug mode from the “Debug” drop down, or the little green triangle that looks like a “Play” button or simply by pressing “F5”. But this project is incomplete/broken, if you launch it you will get the following error.
+
+![Fresh Project image]({{ site.url }}/images/Initial-State-1.PNG)
+
+Not too hard to find that error in the project code, it gives you the function “BPCalculator.BloodPressure.get_Category()” and the file “BloodPressure.cs”. Once there you see the comment saying to implement the project code as part of the project.
+
+I don’t think it is too much of a spoiler to say that if we want to try fix this error we could just hard code a response. This is the first thing I did as I explored the code base to see what code did what.
+
+To do this delete of comment out the error and add the following on line 34.
+
+```C#
+return BPCategory.High;
+```
+
+![Hardcode Response image]({{ site.url }}/images/Hardcode-High-Return-1.PNG)
+
+Here we can reasonable reason that the code is looking to return the Blood Pressure category, and up higher in the file we can see an enumeration (enum) of possible categories. So, I return one of those options without any calculation logic. If/when the get is called, the high category is returned.
+
+So what happens when we launch the application now? Voila an app!
+
+![Hardcode Response image]({{ site.url }}/images/First-App-Launch.PNG)
+
+Ok so it is not an app that actually does anything at this stage but it launched, I was pretty happy the first time I got to this point. So I’ll leave it there for this blog post and come back shortly with next steps. The question is do you want to write application code next or publish to Azure. I guess with the power of the links we can make it a create your own adventure story and leave it up to you which link you follow next.
+Thanks for reading.
+Conor
