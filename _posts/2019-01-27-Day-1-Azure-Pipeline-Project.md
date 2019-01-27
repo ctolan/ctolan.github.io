@@ -7,7 +7,7 @@ tags: Azure Pipelines BPApp
 
 Ok, so let’s start this project. First get [Visual Studio Community](https://visualstudio.microsoft.com/free-developer-offers/) from Microsoft’s free resources page. Download and install it.
 
-![New GitHub Repo image]({{ site.url }}/images/ Visual-Studio-Community-1.PNG)
+![Visual Studio Community image]({{ site.url }}/images/Visual-Studio-Community-1.PNG)
 
 If you don’t have one yet register for a free GitHub account. When I initially did this project, I used Azure Repo’s but this time I want to use GitHub. Since this project is not about developing an app from scratch there is an almost complete app to start from. Let us clone that into our repository now.
 
