@@ -17,7 +17,8 @@ Got to [https://github.com/ctolan/bp](https://github.com/ctolan/bp) and Fork the
 
 You should be able to use the “Fork” functionality without issue. It will copy the repository into your own account so that you will have you own copy of the code to do with as you wish without impacting anyone else’s copy.
 
-*Sidebar - you probably dont need to do this
+*__Sidebar - you probably dont need to do this.__
+
 I’ll create a new Git Repo and sync up what I just downloaded with the repo. To do this I unhide the .git folder and then deleted it (that removes any link to the other git repo), then I initialised the folder as a new git repo, added all the files, committed them and pushed up to the new remote location.
 
 Note: I will work from the BP-2019 repo so I can push changes without impacting the orignal project.
@@ -31,13 +32,15 @@ $ git remote add origin https://github.com/ctolan/BP-2019.git
 $ git push -u origin master
 ```
 
-*/endSidebar
+__*/endSidebar__
+
 Ok so I have the repo with the starter application, next step is to open this in Visual Studio. In your repo click the “*Clone or download button*” this give you the URL to the repo.
 ![New GitHub Repo image]({{ site.url }}/images/Clone-Download-1.PNG)
 
-Open Visual Studio – from the “File” menu select “Open from Source Control”. _Oh wait_ look at this, it’s the first difference from using GitHub instead of Azure Repos. I thought I could connect “Team Explorer” with the repo since Microsoft bought GitHub, but not yet or I’m missing something.
+Open Visual Studio – from the “File” menu select “Open from Source Control”. __Oh wait__ look at this, it’s the first difference from using GitHub instead of Azure Repos. I thought I could connect “Team Explorer” with the repo since Microsoft bought GitHub, but not yet or I’m missing something.
 
-*Go to here:
+__*Go to here:__
+
 Anyway, you can still pull down the files with Git. This brings me to realise that I didn’t mention it, but you will want to download and install [Git for your platform](https://git-scm.com/downloads). Once installed, open Git-CMD if on Windows and decide/navigate to where you want to clone the project to.
 
 ```powershell
@@ -74,7 +77,7 @@ return BPCategory.High;
 
 ![Hardcode Response image]({{ site.url }}/images/Hardcode-High-Return-1.PNG)
 
-Here we can reasonable reason that the code is looking to return the Blood Pressure category, and up higher in the file we can see an enumeration (enum) of possible categories. So, I return one of those options without any calculation logic. If/when the get is called, the high category is returned.
+Here we can reasonably assume that the code is looking to return the Blood Pressure category, and up higher in the file we can see an enumeration (enum) of possible categories. So, I return one of those options without any calculation logic. If/when the get is called, the "high" category is returned.
 
 So what happens when we launch the application now? Voila an app!
 
