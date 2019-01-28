@@ -20,6 +20,8 @@ You should be able to use the “Fork” functionality without issue. It will co
 *Sidebar - you probably dont need to do this
 I’ll create a new Git Repo and sync up what I just downloaded with the repo. To do this I unhide the .git folder and then deleted it (that removes any link to the other git repo), then I initialised the folder as a new git repo, added all the files, committed them and pushed up to the new remote location.
 
+Note: I will work from the BP-2019 repo so I can push changes without impacting the orignal project.
+
 ```bash
 $ git init
 Initialized empty Git repository in C:/Code/BP-2019/.git/
@@ -39,13 +41,13 @@ Open Visual Studio – from the “File” menu select “Open from Source Contr
 Anyway, you can still pull down the files with Git. This brings me to realise that I didn’t mention it, but you will want to download and install [Git for your platform](https://git-scm.com/downloads). Once installed, open Git-CMD if on Windows and decide/navigate to where you want to clone the project to.
 
 ```powershell
-C:\Code> git clone https://github.com/ctolan/BP-2019.git
+C:\Code> git clone https://github.com/ctolan/bp.git
 ```
 
 The above command will clone the GitHub project into a new folder named the same as the GitHub project. To put it into a different folder name you can put that at the end of the command.
 
 ```powershell
-C:\Code> git clone https://github.com/ctolan/BP-2019.git Whatever-Folder
+C:\Code> git clone https://github.com/ctolan/bp.git Whatever-Folder
 ```
 
 Back to Visual Studio after those detours. This time from the “Open” menu select “Open project/solution” (this project comes with solution (.sln) for Visual Studio to help get us started). So navigate to the location where you cloned the repository into and you will see a file called BPCalculator.sln, select it. Visual Studio will do its thing.
