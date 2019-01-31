@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Day 2: Azure Pipelines Project"
-date:   2019-01-27 09:56:31 +0100
+date:   2019-01-29 09:56:31 +0100
 tags: Azure Pipelines BPApp
 ---
 
