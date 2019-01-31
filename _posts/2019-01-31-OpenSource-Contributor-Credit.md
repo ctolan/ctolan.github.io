@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "OpenSource Contributor Credit.md"
+title:  "OpenSource Contributor Credit"
 date:   2019-01-31 09:56:31 +0100
 tags: Opensource
 ---
 
-Woohoo, got my first opensource contribution credit. This week I was referring to the way that project validated parameters in Pester when I thought about my code contribution back in September (wow really September, it if wasn’t dated I wouldn't believe it). Take a look at ![my original post on this]({{ site.url }}/_posts/2018-09-22-First-Opensouce-Contribution-pt1.md) for more detail.
+Woohoo, got my first opensource contribution credit. This week I was referring to the way that project validated parameters in Pester when I thought about my code contribution back in September (wow really September, it if wasn’t dated I wouldn't believe it). Take a look at [my original post on this]({{ site.url }}/_posts/2018-09-22-First-Opensouce-Contribution-pt1.md) for more detail.
 ![Visual Studio Community image]({{ site.url }}/images/AtlassainPS-People-1.PNG)
 
 Honestly I had guessed that my contribution was too small or was not important enough to qualify but there I am on the [AtlassianPS People page](https://atlassianps.org/#people). I am delighted, I am also now encouraged to do more for the project to bump my numbers, there is something to the gamification of keeping track publicly that strikes to my competitive nature. I now want to solve more of their issues and feel attachment to the project. 
