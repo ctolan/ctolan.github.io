@@ -2,7 +2,7 @@
 layout: post
 title:  "OpenSource Contributor Credit.md"
 date:   2019-01-31 09:56:31 +0100
-tags: Opensource Pipelines BPApp
+tags: Opensource
 ---
 
 Woohoo, got my first opensource contribution credit. This week I was referring to the way that project validated parameters in Pester when I thought about my code contribution back in September (wow really September, it if wasn’t dated I wouldn't believe it). Take a look at ![my original post on this]({{ site.url }}/_posts/2018-09-22-First-Opensouce-Contribution-pt1.md) for more detail.
