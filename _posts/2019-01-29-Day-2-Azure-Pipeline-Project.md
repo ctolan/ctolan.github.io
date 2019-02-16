@@ -25,19 +25,27 @@ Then Click New beside Hosting Plan and choose a location which makes sense for y
 
 ![Visual Studio Community image]({{ site.url }}/images/Day-2-Publish-Free-1.PNG)
 
-Once you are sure hit “Create”.
+Once you are sure hit “Create”, let Visual Studio its thing then click Publish.
 
-**Work in Progress post.**
+![Visual Studio Community image]({{ site.url }}/images/Day-2-Deploying-5.PNG)
+
+It will compile you project and connect to the Hosting plan that you just created, since we are using a known format and serivce to the Visual Studio it takes care of everything for you.
 
 ![Visual Studio Community image]({{ site.url }}/images/Day-2-Deploying-2.PNG)
 
 ![Visual Studio Community image]({{ site.url }}/images/Day-2-Deploying-4.PNG)
 
-![Visual Studio Community image]({{ site.url }}/images/Day-2-Deploying-5.PNG)
+If successful it will show the Site URL and even launch the site for you.
 
 ![Visual Studio Community image]({{ site.url }}/images/Day-2-Deploying-Success-1.PNG)
 
+You will recognise this as a out of the box Visual Studio site. Our custom project page is at /bloodpressure.cshtml. So if I append that to the URL I get my page/webapp.
+
 ![Visual Studio Community image]({{ site.url }}/images/Day-2-Deploying-Success-2.PNG)
+
+Ok so we are not at CI/CD yet but we have gotten our WebApp published to the internet for free, that is pretty impressive as far as I'm concerened. You can rework this app to do whatever you want, whatever you're capable off. Then Azure will host it for free allowing you to show off, test out a new idea, practice writing C#, practice web app development, whatever you are after you've launched something online in two days.
+
+From here we need to add the CI/CD, and depending on the order you are following these posts in you may want to get into code and fix up the app code. What not add you name to the page and publish it again with the update?
 
 Thanks for reading.
 Conor
