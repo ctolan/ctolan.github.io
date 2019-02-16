@@ -85,7 +85,7 @@ So what happens when we launch the application now? Voila an app!
 
 While this is not an app that actually does anything at this stage but it launched, I was pretty happy the first time I got to this point. So I’ll leave it there for this blog post and come back shortly with next steps. The question is do you want to write application code next or publish to Azure. I guess with the power of the internet we can make this a create your own adventure story and leave it up to you which link you follow next.
 
-Link to Day 2 [puhlish the project to Azure]({{ site.url }}/Day-2-Azure-Pipeline-Project/)
+Link to Day 2 [publish the project to Azure]({{ site.url }}/Day-2-Azure-Pipeline-Project/)
 
 Thanks for reading.
 Conor
