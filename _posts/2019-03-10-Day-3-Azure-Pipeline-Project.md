@@ -69,5 +69,11 @@ Once done I could save my build pipeline and run it if so desired. I haven't bee
 
 That's the build running through the tasks in order, I'll leave it here for tonight. I'm not sure if there will be errors in this build or not, and if there are I'll want to take a longer look. If there are none then we'll have reached a good place to take a break. If everything works out we still have a Release pipeline to create to publish to Azure, so more to come, not to mention looking at the .NET code and fixing the problems in the App.
 
+P.S. It worked for me at least.
+
+![Build Job Running image]({{ site.url }}/images/Day-3-Build-Success-1.PNG)
+
+We'll look at what that actually means next time.
+
 Thanks for reading.
 Conor
