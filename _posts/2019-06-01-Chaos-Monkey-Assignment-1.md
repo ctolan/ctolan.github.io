@@ -19,7 +19,9 @@ Rough sketch of the process:
 - Send the results of the test to recipients via SNS subscription and SES enrolment.
 
 Below is the output from the assignment, we were tasked with creating a video demo, recording the video added to the difficulty but it had to be done. Learning how to create a good video is just so valuable these days.
-[Chaos Monkey walkthrough playlist](https://www.youtube.com/watch?v=ps67EhdjzBs&list=PL3CTx0aUfJstMxTElKwXfkxX_Sbs_0y42)
+[Chaos Monkey walkthrough playlist](https://www.youtube.com/watch?v=ps67EhdjzBs&list=PL3CTx0aUfJstMxTElKwXfkxX_Sbs_0y42).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5i28HDAefFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I am still undecided on just how much detail to go into covering this project but I certainly want to post on what I learned while doing it. It was a great development on what I’d done with AWS Lambdas PowerShell, so look out for an updated post on that soon. The above video is a bit academic and dry, but since it was for an assignment and not entertainment, please cut me some slack it got me an A.
 
