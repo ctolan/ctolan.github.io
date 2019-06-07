@@ -71,7 +71,7 @@ That's the build running through the tasks in order, I'll leave it here for toni
 
 P.S. It worked for me at least.
 
-![Build Job Running image]({{ site.url }}/images/Day-3-Build-Success-1.PNG)
+![Build Job Success image]({{ site.url }}/images/Day-3-Build-Success-1.PNG)
 
 We'll look at what that actually means next time.
 
