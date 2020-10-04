@@ -80,7 +80,7 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-tagging # Tagging plugin for sorting content.
-  - jekyll/tagging # Same as above.
+  #- jekyll/tagging # Same as above.
 
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-tagging]
 
