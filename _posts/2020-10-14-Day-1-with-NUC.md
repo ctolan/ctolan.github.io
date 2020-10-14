@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dy 1 with NUC"
+title:  "Day 1 with NUC"
 date:   2020-10-14 09:56:31 +0100
 tags: HomeLab
 ---
