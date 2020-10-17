@@ -6,8 +6,8 @@ tags: HomeLab
 ---
 
 As I had hoped it was actually quiet easy to get the vCenter installed and I did infact know what I was doing, mostly. I knew I'd need to get an ISO from VMware for the VCSA, I downloaded that and created a VM before having created a datastore. This is something I've really apreciated about the build, all the parts work out of the box. My thanks to those who have gone before and figured all this out. Hat tip to VMware and Intel for making it happen on the product side, so take my money.
-
 ![Datastore creation image]({{ site.url }}/images/New-datastore.JPG)
+
 ![Datastore created image]({{ site.url }}/images/New-datastore-2.JPG)
 
 Datastore created, I figure 500GB would be enough. Next I went down the wrong path of copying the ISO to the datastore and then I created a new VM and tried to mounth the VCSA ISO. The VM didn't boot, that's not what I should be doing. After a bit of documentation reading I realised that I needed to mounth the VCSA ISO locally on my laptop and then open up either CLI installer or the GUI installer. I went with the GUI this time. Ran into a this error when clicking through the setup, its these little things, I didn't know that for a production setup I'd need a full 500GB minimum for the VCSA. That could be trip up question in an exam for sure. It'd seperate those experienced installing vCenter from those who aren't.
