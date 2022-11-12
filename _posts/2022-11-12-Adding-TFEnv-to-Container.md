@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adding-TFEnv-to-Container"
+title:  "Adding TFEnv to Container"
 date:   2022-11-12 09:56:31 +0100
 tags: GCP
 ---
@@ -35,7 +35,7 @@ In the image you can see a commented line which i left in to make the following 
 
 I will now remove the last `source` line and the commented out line. Wether I bother to replace the full path with a short path I dont know, maybe.
 
-![Dockerfile-2]({{ site.url }}/images/Dockerfile-2.png)
+![Terraform-Version-1]({{ site.url }}/images/Terraform-version-1.png)
 
 Bottom line Terraform is now installed in my container, in a way which makes up upgrading easy in the future.
 
