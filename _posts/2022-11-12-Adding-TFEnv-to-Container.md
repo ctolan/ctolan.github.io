@@ -7,13 +7,13 @@ tags: GCP
 
 Picking up from the end of the last post I needed to include my Git config inside my container so that I do not need to leave the container to use Git. I do this by mounting my .gitconfig file from my laptop into the container where it will be used while running in the container. This is how I get the right mix of disposability and persistence between my laptop and working container environment. 
 
-```
-docker run --rm --volume="C:\Users\ctola\Documents\Blog":"/blog" -it docker.io/library/mycontainer:local
-```
+
+>docker run --rm --volume="C:\Users\ctola\Documents\Blog":"/blog" -it docker.io/library/mycontainer:local
+
 to
-```
-docker run --rm --volume="C:\Users\ctola\Documents\Blog":"/blog" --volume="C:/Users/me/.gitconfig":"/root/.gitconfig" -it docker.io/library/mycontainer:local
-```
+
+>docker run --rm --volume="C:\Users\ctola\Documents\Blog":"/blog" --volume="C:/Users/me/.gitconfig":"/root/.gitconfig" -it docker.io/library/mycontainer:local
+
 
 Again this is why I save this command, I don't want to get deep into a repo update and then realise I haven't go whatever setting configured and I need to go set it and lose my flow. This pattern can be use with other file configs too, and you do not need to mount an actual in use file, it could be a specific file that you place in a persistent location just for ease of use. You might have one .ssh config for one project and another in another folder. You would swap between them by changing the one mounted at run time.
 Project 1
@@ -25,7 +25,7 @@ Project 2
 docker run --rm --volume="C:\Users\ctola\Documents\Blog":"/blog" --volume="C:/Users/me/configs/Project_2/.gitconfig":"/root/.gitconfig" -it docker.io/library/mycontainer:local
 ```
 
-Right with that working I want to get Terraform installed. I'm going to use [TFEnv](https://github.com/tfutils/tfenv), this tool allows quick and easy version switching and handles the installation. So I'll open up my Dockerfile and add some lines.
+Right with that working I want to get Terraform installed. I'm going to use [Dockerfile and add some lines.TFEnv](https://github.com/tfutils/tfenv), this tool allows quick and easy version switching and handles the installation. So I'll open up my 
 
 ![Dockerfile-2]({{ site.url }}/images/Dockerfile-2.png)
 
