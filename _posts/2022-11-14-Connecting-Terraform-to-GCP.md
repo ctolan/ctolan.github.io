@@ -50,7 +50,7 @@ Right so after working through all that this is my current Dockerfile.
 
 I've added commands to get and remove the packages for Python 3.9 and GCloud Cli. I added some more yum package installs to facilitate it. I'll collapse them into a single line shortly as it saves on container layers but that's not important here and now.
 
-![Dockerfile 4]({{ site.url }}/images/Dockerfile-build-1
+![Dockerfile build 1]({{ site.url }}/images/Dockerfile-build-1.png)
 
 After the successful build (no I didn't get it right the first time), then I can run `gcloud init` in my container. Yay.
 
