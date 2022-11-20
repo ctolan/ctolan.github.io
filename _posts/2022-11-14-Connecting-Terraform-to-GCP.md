@@ -54,7 +54,7 @@ I've added commands to get and remove the packages for Python 3.9 and GCloud Cli
 
 After the successful build (no I didn't get it right the first time), then I can run `gcloud init` in my container. Yay.
 
-Oops - crashed docker while relocating my laptop. I'll add a screenshot later.
+![gCloud init 1]({{ site.url }}/images/GCloud-init-1.png)
 
 Thanks for reading.
 
