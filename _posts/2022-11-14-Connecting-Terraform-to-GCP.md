@@ -24,11 +24,11 @@ You should only have one copy of the configuration code and possibly many copies
 
 If I jump in and get ahead of myself and run Terraform plan now with only a skeleton configuration we will see the immediate issue which we need to address. Copying straight from the GCP Terraform documentation [here](https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/getting_started), I will populate my project name in the provider block and I'll accept the default region configuration. Just as an aside the US Central is a low carbon footprint region, apparently, so its a good default.
 
-![TF Initial 1]({{ site.url }}/images/Terraform-main-tf-initial-1.png
+![TF Initial 1]({{ site.url }}/images/Terraform-main-tf-initial-1.png)
 
 Below the `provider` block I copy paste a compute instance `resource` block. I will not configure this at all now because I do not expect it to actually work.
 
-![TF Plan Error 1]({{ site.url }}/images/Terraform-plan-error-1.png
+![TF Plan Error 1]({{ site.url }}/images/Terraform-plan-error-1.png)
 
 With only these two blocks defined you can run `Terraform init` and `Terraform plan`. This is not a blog on how to use Terraform but init initialises the folder as a workspace and checks the files for a Terraform configuration, if access to the required modules is not avaialble this is where you will get an error. In my case, there is no issue initialising, but when Terraform tries to connect to GCP there is a permissions error. This makes sense I have not done any authentication yet.
 
@@ -46,7 +46,7 @@ To run `gcloud auth` it means I need `glcoud cli`, but also I need Python 3.5-3.
 
 Right so after working through all that this is my current Dockerfile.
 
-![Dockerfile 4]({{ site.url }}/images/Dockerfile-4.png
+![Dockerfile 4]({{ site.url }}/images/Dockerfile-4.png)
 
 I've added commands to get and remove the packages for Python 3.9 and GCloud Cli. I added some more yum package installs to facilitate it. I'll collapse them into a single line shortly as it saves on container layers but that's not important here and now.
 
