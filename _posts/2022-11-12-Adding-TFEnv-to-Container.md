@@ -5,7 +5,7 @@ date:   2022-11-12 09:56:31 +0100
 tags: GCP
 ---
 
-Picking up from the end of the last post I needed to include my Git config inside my container so that I do not need to leave the container to use Git. I do this by mounting my .gitconfig file from my laptop into the container where it will be used while running in the container. This is how I get the right mix of disposability and persistence between my laptop and working container environment. 
+Picking up from the end of the last post I needed to include my Git config inside my container so that I do not need to leave the container to use Git. I do this by mounting my .gitconfig file from my laptop into the container where it will be used while running in the container. This is how I get the right mix of disposability and persistence between my laptop and working container environment. ![TFenv]({{ site.url }}/images/TFenv.png)
 
 ```
 docker run --rm /
