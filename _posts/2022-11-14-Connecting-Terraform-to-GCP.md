@@ -5,7 +5,7 @@ date:   2022-11-14 09:56:31 +0100
 tags: GCP
 ---
 
-Next thing I want to get working is `Terraform Plan` against my GCP project. I quickly swapped out of my blog volume to a `Code` folder where I will keep my `.tf` files.
+Next thing I want to get working is `Terraform Plan` against my GCP project. I quickly swapped out of my blog volume to a `Code` folder where I will keep my `.tf` files. ![Gcloud Init 1]({{ site.url }}/images/GCloud-init-1.png)
 
 
 ```

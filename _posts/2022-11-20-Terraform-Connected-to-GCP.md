@@ -5,7 +5,7 @@ date:   2022-11-20 09:56:31 +0100
 tags: GCP
 ---
 
-With Terraform connecting to my GCP account I am able to start focusing on the infrastructure as code part of this project and less on the technical connectivity and setup which have been the focus of the previous posts.
+With Terraform connecting to my GCP account I am able to start focusing on the infrastructure as code part of this project and less on the technical connectivity and setup which have been the focus of the previous posts. ![Gcloud Init 1]({{ site.url }}/images/Terraform-main-tf-initial-1.png)
 
 What am I going to deploy? This is a question I have played around with quite a lot, and I think I have a good answer now. Previously I have thought about deploying some sort of app like an example app deployed in a container with all the pipeline bells and whistles that make it a cloud native app. These are quite common out there on the internet and usually come from software engineers who don't really take the infrastructure as seriously. Yet my experience really is in the infrastructure and not the app side of things. I don't really care about what application was going to be running and then those projects ran aground because it was not as interesting to me.
 
