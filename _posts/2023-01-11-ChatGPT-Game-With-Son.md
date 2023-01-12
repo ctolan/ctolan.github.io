@@ -6,6 +6,7 @@ First post of 2023 and its a good one. I am creating a Python based figthing gam
 ![ChatGPT Game 1]({{ site.url }}/images/ChatGPT-game-1.png)
 
 
+
 ```python
 
 class Player:
