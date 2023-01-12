@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "ChatGPT Game With Son"
+date:   2023-01-11 09:56:31 +0100
+tags: GCP
+---
+
 Draft - Hello, First post of 2023 and its a good one. I am creating a Python based figthing game together with/for my son. With all the discussion of ChatGPT I decided to give it a go and see what it can do. ![ChatGPT Game 1]({{ site.url }}/images/ChatGPT-game-1.png)
 
 
