@@ -1,12 +1,12 @@
 ---
 layout: tagpage
-title: "Tag: MSC"
-tag: MSC
+title: "Tag: gcp"
+tag: gcp
 robots: noindex
 ---
 ---
 layout: tagpage
-title: "Tag: MSc"
-tag: MSc
+title: "Tag: GCP"
+tag: GCP
 robots: noindex
 ---
