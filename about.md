@@ -17,7 +17,9 @@ A life-long learner backed by dual Master's degrees and extensive certifications
 I believe in continuous learning and have earned several industry certifications to stay at the forefront of cloud technology.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-08-28&ci=AWS00604072" rel="Validate">![Badge]({{ site.url }}/images/AWS-Certified-Solutions-Architect.png)</a>
+  <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-08-28&ci=AWS00604072" rel="Validate">
+    <img src="{{ site.url }}/images/AWS-Certified-Solutions-Architect.png" alt="AWS Certified Solutions Architect Badge" width="150">
+  </a>
 
   <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a5608d0f-072d-46b3-9393-7c52a73547c2" data-share-badge-host="https://www.credly.com"></div>
   <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="285b64fe-f3e5-4777-97b8-c49b5053fe7a" data-share-badge-host="https://www.credly.com"></div>
