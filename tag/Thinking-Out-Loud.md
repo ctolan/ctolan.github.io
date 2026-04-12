@@ -6,13 +6,13 @@ robots: noindex
 ---
 ---
 layout: tagpage
-title: "Tag: Thinking-out-loud"
-tag: Thinking-out-loud
+title: "Tag: Thinking-Out-Loud"
+tag: Thinking-Out-Loud
 robots: noindex
 ---
 ---
 layout: tagpage
-title: "Tag: Thinking-Out-Loud"
-tag: Thinking-Out-Loud
+title: "Tag: Thinking-out-loud"
+tag: Thinking-out-loud
 robots: noindex
 ---
