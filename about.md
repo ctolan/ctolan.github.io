@@ -53,6 +53,13 @@ I believe in continuous learning and have earned several industry certifications
     })();
 </script>
 
+### Personal Projects
+
+I use personal projects to explore ideas that are useful to my family while keeping my engineering skills practical and current.
+
+*   **[Growing Together](https://growingtogether.ie/)**: A privacy-focused height tracking application for parents. It makes it easy to record measurements for multiple children and visualize their growth over time through interactive charts.
+*   **[Patrick's Art Gallery](https://patrick.tolan.ie/)**: An evolving digital gallery for my son's artwork. I plan to develop it further as both a lasting home for his creativity and a space to experiment with new web ideas.
+
 ### Legacy College Work
 
 During my MSc, I developed a few projects that served as early playgrounds for my interest in CI/CD and cloud deployments.
