@@ -10,3 +10,5 @@ node_modules
 package.json
 LambdaHello/LambdaHello.ps1
 .gitignore
+*.skill
+.gitignore

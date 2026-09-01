@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-I am a Senior Cloud Engineer based in Ireland, specializing in cloud infrastructure on both AWS and Google Cloud Platform (GCP). My passion lies in automation, infrastructure as code, and building scalable, resilient cloud solutions. In recent years I have gotten into CI/CD and Kubernetes
+I am a Principal Cloud Engineer at SMBC, working at Director grade in Dublin, Ireland. I work to shape cloud infrastructure and platform strategy within our EMEA region, drawing on my hands-on engineering background across AWS and Google Cloud Platform (GCP). My focus is on secure, resilient enterprise platforms, infrastructure as code, and automation that enables teams to deliver at scale.
 
 ### Experience & Focus
 
-I am a Cloud and Platform Engineer with nearly a decade of experience architecting and scaling multi-cloud infrastructure (AWS, GCP). I thrive in large-scale environments, applying a deeply logical approach to complex systems engineering and automation. 
+My career has grown from a systems engineering into architecting and scaling multi-cloud platforms, and now into broader technical leadership. I work across complex enterprise systems, modern delivery practices such as CI/CD, Kubernetes, and GitOps, and the architectural decisions needed to turn technology strategy into reliable outcomes.
 
-A life-long learner backed by dual Master's degrees and extensive certifications, I continuously explore modern infrastructure paradigms through hands-on side projects—including architecting and self-hosting custom web environments on GCP—to stay at the cutting edge of the broader cloud ecosystem.
+A life-long learner backed by dual Master's degrees and extensive industry certifications, I believe technical leadership should remain grounded in practical experience. I continue to explore modern infrastructure through hands-on projects, from advanced delivery pipelines to self-hosted environments on GCP, keeping my perspective current while helping teams navigate complex engineering decisions.
 
 ### Earned Certification Badges
 
