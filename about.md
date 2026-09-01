@@ -8,13 +8,22 @@ I am a Principal Cloud Engineer at SMBC, working at Director grade in Dublin, Ir
 
 ### Experience & Focus
 
-My career has grown from a systems engineering into architecting and scaling multi-cloud platforms, and now into broader technical leadership. I work across complex enterprise systems, modern delivery practices such as CI/CD, Kubernetes, and GitOps, and the architectural decisions needed to turn technology strategy into reliable outcomes.
+My career has grown from systems engineering into architecting and scaling multi-cloud platforms, and now into technical and people leadership. I work across complex enterprise systems, modern delivery practices such as CI/CD, Kubernetes, and GitOps, and the architectural decisions needed to turn technology strategy into reliable outcomes.
 
 A life-long learner backed by dual Master's degrees and extensive industry certifications, I believe technical leadership should remain grounded in practical experience. I continue to explore modern infrastructure through hands-on projects, from advanced delivery pipelines to self-hosted environments on GCP, keeping my perspective current while helping teams navigate complex engineering decisions.
 
 ### Earned Certification Badges
 
 I believe in continuous learning and have earned several industry certifications to stay at the forefront of cloud technology.
+
+#### Google Cloud Certifications
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 24px; margin: 20px 0 32px;">
+  <div data-iframe-width="200" data-iframe-height="360" data-share-badge-id="7bfb94e7-5187-4bac-8a33-7976cf210505" data-share-badge-host="https://www.credly.com"></div>
+  <div data-iframe-width="200" data-iframe-height="360" data-share-badge-id="75b63f06-ba2a-4583-9bd6-80b8af67fa5a" data-share-badge-host="https://www.credly.com"></div>
+</div>
+
+#### Additional Certifications
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-08-28&ci=AWS00604072" rel="Validate">
