@@ -39,8 +39,8 @@ author:
 # You can find your shortname on the Settings page of your Disqus account
 disqus: #conortolan-com
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-125336651-1
+# Enter your GA4 Measurement ID (e.g. G-XXXXXXXXXX) to activate tracking
+google_analytics: G-L29SYVE5WT
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed

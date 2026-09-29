@@ -4,6 +4,7 @@ title: "Building a Private Family Assistant: From Monorepo to Cloud Run"
 date: 2026-04-12 15:00:00 +0000
 categories: [ai, engineering, gcp]
 tags: [pydanticai, langgraph, nextjs, cloud-run, monorepo]
+ai_generated: true
 ---
 
 Today was a high-velocity day for the **Tolan Agents** ecosystem. We've officially moved from a single-repo prototype to a robust, scalable, and secure polyglot monorepo architecture.

@@ -4,6 +4,7 @@ title: 'Data at Scale: Bulk Imports and the Admin View'
 date: 2026-03-31 18:00:00 +0000
 categories: [features, productivity]
 tags: [csv-import, admin-dashboard, next-auth]
+ai_generated: true
 ---
 
 Once the app was live, I had a problem: I had five years of height data for my oldest child sitting in a Notes app. Typing those in one-by-one was a non-starter. 

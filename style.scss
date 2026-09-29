@@ -120,6 +120,26 @@ img {
   color: $gray;
 }
 
+// AI-written badge, shown on posts flagged with `ai_generated: true`
+.ai-badge {
+  display: inline-block;
+  margin: 0 0 15px;
+  padding: 3px 10px;
+  border: 1px solid $blue;
+  border-radius: 4px;
+  background: $lightGray;
+  color: $blue;
+  font-family: $helveticaNeue;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.ai-badge-icon {
+  margin-right: 5px;
+}
+
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;

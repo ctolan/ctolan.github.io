@@ -4,6 +4,7 @@ title: '"Growing Together": The Spark and the Stack'
 date: 2026-03-21 12:00:00 +0000
 categories: [side-project, nextjs]
 tags: [nextjs, prisma, fatherhood, tech-stack]
+ai_generated: true
 ---
 
 Every developer has that one "itch" they need to scratch. For me, it was tracking my kids' height. Sure, there are apps for that, but none of them felt *right*. They were either cluttered with ads or lacked the specific "sibling comparison" logic I wanted. 
