@@ -4,6 +4,7 @@ title: 'The Cloud Hurdle: GCP and the Quest for a Custom Domain'
 date: 2026-03-28 15:00:00 +0000
 categories: [devops, gcp]
 tags: [cloud-run, docker, gcp, deployment]
+ai_generated: true
 ---
 
 "It works on my machine" is a phrase that should haunt every developer. The real test of a project is when it lives on the public internet. For **Growing-Together**, I decided to go "all-in" on Google Cloud Platform (GCP).

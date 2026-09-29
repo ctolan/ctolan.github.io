@@ -4,6 +4,7 @@ title: 'The Heart of the App: Growth Velocity and Sibling Rivalry'
 date: 2026-04-06 09:00:00 +0000
 categories: [data-science, visualization]
 tags: [recharts, growth-charts, algorithms]
+ai_generated: true
 ---
 
 This is what I built the app for. In Build 00059, I finally implemented the "Advanced Growth Analysis" engine. 

@@ -4,6 +4,7 @@ title: 'The Day the DB Died (And How I Brought it Back)'
 date: 2026-04-08 10:00:00 +0000
 categories: [disaster-recovery, database]
 tags: [prisma, postgresql, incident-report, lessons-learned]
+ai_generated: true
 ---
 
 Every developer has a "Day the Music Died." Mine was April 6, 2026.
